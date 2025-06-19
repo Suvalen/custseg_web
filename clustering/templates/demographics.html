@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="container mt-4">
+  <h2>Customer Demographics Report</h2>
+
+  <div class="row mb-4">
+    <div class="col-md-6">
+      <div class="card shadow-sm p-3">
+        <h5 class="text-center">Gender Distribution</h5>
+        <img src="{{ gender_plot }}" class="img-fluid" alt="Gender Chart">
+      </div>
+    </div>
+
+    <div class="col-md-6">
+      <div class="card shadow-sm p-3">
+        <h5 class="text-center">Age Distribution</h5>
+        <img src="{{ age_plot }}" class="img-fluid" alt="Age Chart">
+      </div>
+    </div>
+  </div>
+
+  <div class="row mb-4">
+    <div class="col-md-12">
+      <div class="card shadow-sm p-3">
+        <h5 class="text-center">Work Type Distribution</h5>
+        <img src="{{ work_plot }}" class="img-fluid" alt="Work Type Chart">
+      </div>
+    </div>
+  </div>
+
+</div>
+{% endblock %}

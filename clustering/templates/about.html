@@ -1,0 +1,80 @@
+{% extends 'base.html' %}
+{% block content %}
+{% load static %}
+<link rel="stylesheet" href="{% static 'css/about-cards.css' %}">
+
+
+
+<div class="container mt-5">
+  <!-- Hero Section -->
+  
+  <link rel="stylesheet" href="{% static 'css/about-cards.css' %}">
+
+  <div class="container mt-5 text-center">
+    <h1 class="dashboard-title">Customer Segmentation Dashboard</h1>
+    <p class="dashboard-subtitle">
+      Unlock customer insights through machine learning-driven clustering and smart data preprocessing.
+    </p>
+  </div>
+
+  <!-- Features Section -->
+  <div class="row text-center mb-5">
+    <div class="col-md-4">
+      <div class="card shadow-sm border-0">
+        <div class="card-body">
+          <i class="fas fa-broom fa-2x text-primary mb-3"></i>
+          <h5 class="card-title">Data Cleaning</h5>
+          <p class="card-text">Detects and removes outliers, handles missing values, and prepares your raw data for accurate clustering.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card shadow-sm border-0">
+        <div class="card-body">
+          <i class="fas fa-project-diagram fa-2x text-success mb-3"></i>
+          <h5 class="card-title">PCA + Clustering</h5>
+          <p class="card-text">Applies PCA for dimensionality reduction and KMeans for segmenting customers into behavior-based clusters.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card shadow-sm border-0">
+        <div class="card-body">
+          <i class="fas fa-chart-line fa-2x text-danger mb-3"></i>
+          <h5 class="card-title">Visual Insights</h5>
+          <p class="card-text">Interactive plots and summaries make it easy to interpret clusters and take data-driven business actions.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Workflow Section -->
+  <h3 class="text-center mb-4">How It Works</h3>
+  <div class="row mb-5">
+    <div class="col-md-3 text-center">
+      <i class="fas fa-file-upload fa-2x text-primary mb-2"></i>
+      <p>1. Upload Raw Data</p>
+    </div>
+    <div class="col-md-3 text-center">
+      <i class="fas fa-broom fa-2x text-success mb-2"></i>
+      <p>2. Clean & Prepare</p>
+    </div>
+    <div class="col-md-3 text-center">
+      <i class="fas fa-brain fa-2x text-warning mb-2"></i>
+      <p>3. Run Clustering</p>
+    </div>
+    <div class="col-md-3 text-center">
+      <i class="fas fa-chart-pie fa-2x text-danger mb-2"></i>
+      <p>4. Explore Results</p>
+    </div>
+  </div>
+  
+  
+  <!-- Final CTA -->
+  <div class="text-center mb-5">
+    <a href="{% url 'clean_data' %}" class="btn btn-lg btn-success me-3">Get Started Now</a>
+    <a href="{% url 'results' %}" class="btn btn-lg btn-outline-primary">View Sample Results</a>
+  </div>
+</div>
+
+{% endblock %}

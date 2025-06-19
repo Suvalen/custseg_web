@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container mt-5">
+    <div class="card shadow">
+        <div class="card-header">
+            <h3>Cluster Prediction Result</h3>
+        </div>
+        <div class="card-body">
+            <h5 class="card-title">
+                Predicted Cluster: <span class="badge bg-primary">{{ cluster }}</span>
+            </h5>
+            <p class="card-text">
+                <strong>Segment Description:</strong> {{ segment }}
+            </p>
+
+            {% if tags %}
+            <hr>
+            <h5 class="mt-3">Cluster Tags:</h5>
+            <div>
+                {% for tag in tags %}
+                    <span class="badge bg-info text-dark me-1 mb-1">{{ tag }}</span>
+                {% endfor %}
+            </div>
+            {% endif %}
+        </div>
+        <div class="card-footer text-muted">
+            Based on your inputs
+        </div>
+    </div>
+</div>
+{% endblock %}

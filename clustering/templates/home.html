@@ -1,0 +1,7 @@
+{% extends 'base.html' %}
+{% block content %}
+<h2>Welcome to Customer Segmentation Dashboard</h2>
+<p>This tool helps you cluster customer data using PCA and KMeans.</p>
+
+<a href="{% url 'upload' %}" class="btn btn-primary mt-3">Upload Customer Data</a>
+{% endblock %}

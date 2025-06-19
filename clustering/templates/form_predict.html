@@ -1,0 +1,42 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container mt-4">
+    <h2>🧠 Predict Customer Segment</h2>
+    {% if error %}<div class="alert alert-danger">{{ error }}</div>{% endif %}
+    <form method="POST">
+        {% csrf_token %}
+        <div class="row">
+            <div class="col-md-6">
+                <label>Age</label>
+                <input type="number" name="age" class="form-control" required>
+            </div>
+            <div class="col-md-6">
+                <label>Visit Frequency (per month)</label>
+                <input type="number" name="freq" class="form-control" required>
+            </div>
+            <div class="col-md-6">
+                <label>Stay Duration (minutes)</label>
+                <input type="number" name="stay" class="form-control" required>
+            </div>
+            <div class="col-md-6">
+                <label>Avg Order Value (Rp)</label>
+                <input type="number" name="order_value" class="form-control" required>
+            </div>
+            <div class="mb-3">
+                <label for="rating" class="form-label">Customer Rating</label>
+                <select class="form-select" name="rating" id="rating" required>
+                    <option value="">-- Select Rating --</option>
+                    <option value="1">1 - Very Poor</option>
+                    <option value="2">2 - Poor</option>
+                    <option value="3">3 - Average</option>
+                    <option value="4">4 - Good</option>
+                    <option value="5">5 - Excellent</option>
+                </select>
+            </div>
+            
+        </div>
+        <button type="submit" class="btn btn-primary mt-3">Predict Segment</button>
+    </form>
+</div>
+{% endblock %}

@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+{% block content %}
+<h2>Upload Customer Data</h2>
+<form method="POST" enctype="multipart/form-data">
+    {% csrf_token %}
+    <div class="mb-3">
+        <label for="snapshot_name" class="form-label">Cluster Name</label>
+        <input type="text" class="form-control" name="snapshot_name" placeholder="e.g. Cluster 2024 / 2025" required>
+    </div>
+    <div class="mb-3">
+        <label for="file" class="form-label">Upload CSV File</label>
+        <input type="file" class="form-control" name="file" required>
+    </div>
+    <button type="submit" class="btn btn-primary">Upload and Cluster</button>
+</form>
+.
+<div class="card card-primary card-outline card-collapsable">
+    <div class="card-header">
+      <h3 class="card-title">📘 Upload Instructions</h3>
+      <div class="card-tools">
+        <button type="button" class="btn btn-tool" data-card-widget="collapse">
+          <i class="fas fa-minus"></i>
+        </button>
+      </div>
+    </div>
+    <div class="card-body">
+      <p>This section lets you upload customer data for clustering.</p>
+      <ul>
+        <li>File Format: <a href="{% url 'clean_data' %}"><strong>Cleaned</strong></a> <code>.csv</code> only, Download from the file cleaning section</li>
+        <li>Will be saved as a time-stamped  <a href="{% url 'snapshot_list'%}"> <strong>snapshot</strong></a></li>
+        <li>Automatically clustered</li>
+      </ul>
+    </div>
+  </div>
+  
+
+{% endblock %}

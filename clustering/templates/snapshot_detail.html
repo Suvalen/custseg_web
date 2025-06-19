@@ -1,0 +1,50 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="container mt-4">
+    <h2 class="mb-3">{{ snapshot.name }}</h2>
+    <p class="text-muted">Created on {{ snapshot.created_at|date:"Y-m-d H:i" }}</p>
+
+    <!-- Cluster Profiles -->
+    <h4 class="mb-3">🔍 Cluster Profiles with Tags</h4>
+    <div class="row">
+        {% for profile in profile_cards %}
+        <div class="col-md-4 mb-4">
+            <div class="card shadow-sm border-info">
+                <div class="card-header bg-info text-white">
+                    <strong>Cluster {{ profile.Cluster }}</strong>
+                </div>
+                <div class="card-body">
+                    <p>💰 <strong>Avg Spend:</strong> Rp {{ profile.avg_spend }}</p>
+                    <p>📅 <strong>Visits/Month:</strong> {{ profile.visit_freq }}</p>
+                    <p>⭐ <strong>Avg Rating:</strong> {{ profile.rating }}</p>
+                    <p>⏱️ <strong>Avg Stay:</strong> {{ profile.stay }} min</p>
+                    <hr>
+                    <p><strong>🍀 Tags:</strong></p>
+                    {% for tag in profile.tags %}
+                    <span class="badge bg-secondary me-1 mb-1">{{ tag }}</span>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+
+    <!-- Cluster Summary Visuals -->
+    <h4 class="mt-4 mb-3">📊 Cluster Summary Visuals</h4>
+<div class="row">
+  <div class="col-md-4 mb-4">{{ charts.count|safe }}</div>
+  <div class="col-md-4 mb-4">{{ charts.spend|safe }}</div>
+  <div class="col-md-4 mb-4">{{ charts.frequency|safe }}</div>
+  <div class="col-md-4 mb-4">{{ charts.rating|safe }}</div>
+  <div class="col-md-4 mb-4">{{ charts.stay|safe }}</div>
+</div>
+
+
+    <!-- Table Preview -->
+    <h4 class="mt-5 mb-3">📋 Clustered Data Preview</h4>
+    {{ table_html|safe }}
+    <a href="{% url 'export_snapshot_csv' snapshot.id %}" class="btn btn-outline-success mb-3">
+        📥 Download Snapshot CSV
+      </a>
+</div>
+{% endblock %}

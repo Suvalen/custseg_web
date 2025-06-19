@@ -1,0 +1,916 @@
+Customer ID,Gender,Age,Order Count,Avg Order Value (Rp),Favorite Food,Favorite Drink,Visit Frequency (per month),Stay Duration (minutes),Payment Method,Customer Rating,Work Type,Referral Count,Time of Visit,Preferred Ordering Method,Holiday Visits,Repeat Order Due to Stay Duration
+Customer001,Female,28.0,17.0,115237.0,Western Food,Juices,14.0,61,Cash,4.4,Employee,8,Evening,Takeaway,Weekday,False
+Customer002,Female,53.0,17.0,51237.0,Rice Bowl,Manual Brew,30.0,21,Cash,4.1,Freelancer,10,Morning,Delivery,y,False
+Customer003,Male,26.0,33.0,75387.0,Western Food,Barista Drinks,4.0,27,Credit Card,4.7,Retired,16,Night,Delivery,y,False
+Customer004,Male,49.0,13.0,142370.0,Rice Bowl,Kopi Susu Lokal,22.0,54,Credit Card,1.0,Freelancer,14,Evening,Delivery,y,False
+Customer005,Female,54.0,21.0,87957.0,Rice Bowl,Smoothies,8.0,20,Credit Card,2.9,Retired,7,Night,Takeaway,y,True
+Customer006,Male,36.0,19.0,90185.0,Pizza,Smoothies,11.0,33,Cash,3.4,Employee,4,Night,Dine-in,y,True
+Customer007,Male,30.0,29.0,93950.0,Spaghetti,Juices,18.0,97,Debit Card,1.8,Retired,5,Morning,Takeaway,y,True
+Customer008,Female,58.0,27.0,23089.0,Spaghetti,Smoothies,28.0,76,Credit Card,1.5,Entrepreneur,9,Evening,Delivery,y,True
+Customer009,Male,38.0,41.0,39016.0,Pizza,Mocktail,18.0,101,E-Wallet,4.1,Employee,5,Evening,Dine-in,y,True
+Customer010,Male,51.0,14.0,37686.0,Burgers & Sandwiches,Mocktail,5.0,110,Credit Card,3.0,Employee,16,Night,Takeaway,y,True
+Customer011,Male,30.0,27.0,33593.0,Spaghetti,Yakult,19.0,43,Cash,4.1,Entrepreneur,4,Afternoon,Delivery,y,True
+Customer012,Female,20.0,23.0,67253.0,Western Food,Frappe,6.0,57,Credit Card,2.2,Freelancer,3,Evening,Dine-in,y,False
+Customer013,Female,56.0,5.0,112959.0,Spaghetti,Mocktail,5.0,99,Credit Card,4.4,Entrepreneur,5,Morning,Dine-in,y,False
+Customer014,Female,55.0,46.0,117634.0,Asian Delight,Juices,10.0,39,Credit Card,2.7,Retired,19,Evening,Takeaway,y,False
+Customer015,Female,44.0,47.0,83289.0,Burgers & Sandwiches,Classic Coffee,24.0,38,Cash,2.1,Student,9,Afternoon,Dine-in,y,True
+Customer016,Male,53.0,49.0,128649.0,Salad & Soup,Smoothies,29.0,13,Cash,3.3,Employee,3,Afternoon,Dine-in,y,False
+Customer017,Male,35.0,12.0,96959.0,Rice Bowl,Juices,12.0,17,E-Wallet,3.0,Employee,11,Morning,Takeaway,y,True
+Customer018,Male,25.0,30.0,60865.0,Asian Delight,Mocktail,21.0,89,Credit Card,3.7,Student,3,Evening,Dine-in,y,True
+Customer019,Male,53.0,34.0,37553.0,Burgers & Sandwiches,Barista Drinks,23.0,110,Credit Card,1.4,Retired,19,Morning,Dine-in,y,True
+Customer020,Female,36.0,37.0,140255.0,Asian Delight,Manual Brew,12.0,25,E-Wallet,4.6,Entrepreneur,6,Night,Takeaway,y,False
+Customer021,Female,28.0,14.0,85913.0,Salad & Soup,Manual Brew,9.0,45,Credit Card,2.1,Student,9,Night,Delivery,y,False
+Customer022,Female,31.0,18.0,99759.0,Salad & Soup,Mocktail,21.0,18,Cash,4.5,Employee,12,Morning,Dine-in,y,False
+Customer023,Male,56.0,12.0,117287.0,Asian Delight,Mocktail,2.0,80,Cash,4.7,Employee,19,Afternoon,Takeaway,y,True
+Customer024,Female,55.0,2.0,79528.0,Salad & Soup,Manual Brew,1.0,26,E-Wallet,1.7,Employee,4,Night,Dine-in,y,False
+Customer025,Male,53.0,23.0,84831.0,Spaghetti,Barista Drinks,11.0,83,E-Wallet,1.2,Retired,20,Afternoon,Takeaway,y,False
+Customer026,Female,40.0,1.0,139153.0,Salad & Soup,Mocktail,16.0,12,Credit Card,2.9,Employee,6,Morning,Delivery,y,False
+Customer027,Male,58.0,50.0,75142.0,Western Food,Manual Brew,10.0,11,Debit Card,4.9,Employee,10,Afternoon,Dine-in,y,True
+Customer028,Male,40.0,21.0,37063.0,Burgers & Sandwiches,Classic Coffee,26.0,26,E-Wallet,1.7,Freelancer,18,Afternoon,Takeaway,y,False
+Customer029,Female,18.0,37.0,110438.0,Burgers & Sandwiches,Kopi Susu Lokal,23.0,79,Debit Card,4.3,Retired,5,Morning,Dine-in,y,True
+Customer030,Female,42.0,27.0,99634.0,Rice Bowl,Yakult,28.0,24,Debit Card,5.0,Entrepreneur,2,Evening,Delivery,y,True
+Customer031,Male,47.0,6.0,94657.0,Snacks,Barista Drinks,11.0,83,Credit Card,2.6,Retired,4,Night,Dine-in,y,False
+Customer032,Male,41.0,39.0,144015.0,Snacks,Others,2.0,28,Cash,4.6,Entrepreneur,11,Night,Dine-in,y,False
+Customer033,Female,54.0,2.0,146908.0,Spaghetti,Kopi Susu Lokal,11.0,78,Debit Card,1.7,Retired,4,Evening,Takeaway,y,False
+Customer034,Male,24.0,33.0,59149.0,Rice Bowl,Mocktail,27.0,72,Cash,3.5,Employee,11,Morning,Delivery,y,True
+Customer035,Female,37.0,32.0,70609.0,Western Food,Classic Coffee,6.0,116,Cash,3.1,Freelancer,17,Night,Dine-in,y,True
+Customer036,Male,28.0,10.0,84269.0,Burgers & Sandwiches,Kopi Susu Lokal,14.0,22,E-Wallet,1.1,Entrepreneur,7,Night,Delivery,y,True
+Customer037,Female,48.0,31.0,112209.0,Asian Delight,Kopi Susu Lokal,12.0,31,Debit Card,2.1,Retired,8,Night,Dine-in,y,True
+Customer038,Male,30.0,43.0,75106.0,Pizza,Kopi Susu Lokal,11.0,101,Cash,1.1,Freelancer,7,Night,Dine-in,y,False
+Customer039,Male,60.0,13.0,126942.0,Snacks,Barista Drinks,20.0,115,E-Wallet,3.6,Employee,19,Night,Delivery,y,True
+Customer040,Female,49.0,40.0,124749.0,Snacks,Yakult,16.0,51,E-Wallet,2.6,Freelancer,3,Afternoon,Dine-in,y,False
+Customer041,Male,28.0,31.0,103438.0,Snacks,Others,11.0,72,Credit Card,1.4,Employee,11,Morning,Delivery,y,False
+Customer042,Male,47.0,23.0,132623.0,Asian Delight,Frappe,23.0,49,E-Wallet,2.9,Freelancer,7,Night,Delivery,y,False
+Customer043,Female,55.0,3.0,44156.0,Western Food,Juices,9.0,113,Credit Card,1.8,Employee,4,Night,Takeaway,y,True
+Customer044,Male,58.0,7.0,34196.0,Western Food,Frappe,26.0,72,Debit Card,4.9,Employee,15,Morning,Takeaway,y,False
+Customer045,Male,57.0,30.0,135376.0,Spaghetti,Mocktail,19.0,16,Credit Card,1.4,Entrepreneur,4,Evening,Delivery,y,False
+Customer046,Male,36.0,26.0,143385.0,Pizza,Barista Drinks,18.0,12,Debit Card,4.6,Student,13,Afternoon,Takeaway,y,True
+Customer047,Male,42.0,6.0,52978.0,Pizza,Frappe,19.0,116,Cash,5.0,Employee,12,Morning,Dine-in,y,True
+Customer048,Female,38.0,24.0,38238.0,Western Food,Mocktail,7.0,45,E-Wallet,2.0,Employee,20,Evening,Dine-in,y,False
+Customer049,Male,20.0,29.0,70463.0,Burgers & Sandwiches,Manual Brew,3.0,32,E-Wallet,1.9,Retired,1,Night,Delivery,y,False
+Customer050,Female,47.0,7.0,48906.0,Snacks,Frappe,24.0,92,Debit Card,1.8,Freelancer,12,Afternoon,Takeaway,y,True
+Customer051,Female,56.0,28.0,136539.0,Salad & Soup,Frappe,22.0,98,Cash,3.8,Retired,6,Night,Dine-in,y,False
+Customer052,Female,24.0,47.0,140402.0,Snacks,Manual Brew,12.0,19,Cash,4.8,Freelancer,3,Afternoon,Takeaway,y,True
+Customer053,Male,44.0,48.0,128551.0,Spaghetti,Others,9.0,47,Credit Card,2.8,Employee,6,Afternoon,Delivery,y,True
+Customer054,Female,59.0,38.0,92461.0,Rice Bowl,Classic Coffee,10.0,33,Cash,5.0,Entrepreneur,7,Evening,Delivery,y,False
+Customer055,Female,43.0,6.0,145278.0,Western Food,Juices,15.0,109,Credit Card,2.8,Freelancer,10,Morning,Dine-in,y,False
+Customer056,Female,53.0,48.0,145186.0,Salad & Soup,Mocktail,19.0,62,Debit Card,3.4,Employee,4,Morning,Dine-in,y,False
+Customer057,Female,25.0,26.0,43556.0,Pizza,Others,28.0,48,E-Wallet,3.2,Student,18,Afternoon,Takeaway,y,True
+Customer058,Male,36.0,19.0,113990.0,Pizza,Yakult,21.0,114,Cash,3.5,Employee,9,Morning,Dine-in,y,False
+Customer059,Male,43.0,32.0,38109.0,Salad & Soup,Smoothies,28.0,93,E-Wallet,1.2,Entrepreneur,2,Afternoon,Dine-in,y,False
+Customer060,Female,48.0,3.0,40694.0,Rice Bowl,Yakult,1.0,25,Credit Card,4.8,Student,0,Evening,Takeaway,y,False
+Customer061,Female,32.0,43.0,21146.0,Spaghetti,Smoothies,9.0,74,Debit Card,2.7,Student,13,Evening,Delivery,y,True
+Customer062,Male,23.0,26.0,116839.0,Snacks,Yakult,14.0,41,Credit Card,4.6,Freelancer,9,Afternoon,Dine-in,y,False
+Customer063,Female,31.0,22.0,90315.0,Spaghetti,Juices,17.0,11,Debit Card,1.7,Entrepreneur,17,Evening,Delivery,y,True
+Customer064,Female,47.0,9.0,118100.0,Snacks,Others,30.0,25,Debit Card,2.6,Entrepreneur,20,Afternoon,Dine-in,y,True
+Customer065,Male,35.0,44.0,94286.0,Pizza,Juices,15.0,68,E-Wallet,3.2,Entrepreneur,1,Evening,Delivery,y,False
+Customer066,Female,25.0,19.0,39231.0,Snacks,Yakult,7.0,69,Cash,4.6,Retired,12,Evening,Dine-in,y,True
+Customer067,Male,48.0,31.0,119669.0,Snacks,Frappe,6.0,52,Credit Card,1.7,Employee,19,Night,Dine-in,y,True
+Customer068,Male,40.0,33.0,48167.0,Spaghetti,Frappe,25.0,53,Credit Card,3.4,Retired,4,Afternoon,Dine-in,y,True
+Customer069,Male,35.0,5.0,113401.0,Pizza,Classic Coffee,23.0,115,Credit Card,1.6,Freelancer,13,Night,Dine-in,y,False
+Customer070,Female,37.0,8.0,119713.0,Rice Bowl,Kopi Susu Lokal,12.0,105,Cash,4.4,Student,13,Night,Delivery,y,True
+Customer071,Female,19.0,36.0,133220.0,Snacks,Frappe,20.0,62,Cash,4.7,Retired,14,Night,Takeaway,y,False
+Customer072,Male,22.0,40.0,38010.0,Spaghetti,Kopi Susu Lokal,28.0,45,Credit Card,1.8,Student,2,Morning,Dine-in,y,False
+Customer073,Female,46.0,18.0,92898.0,Spaghetti,Barista Drinks,12.0,51,Cash,4.9,Retired,4,Afternoon,Delivery,y,True
+Customer074,Female,42.0,12.0,84005.0,Salad & Soup,Others,5.0,108,E-Wallet,2.8,Student,4,Evening,Delivery,y,True
+Customer075,Male,59.0,49.0,34803.0,Rice Bowl,Yakult,15.0,90,Debit Card,3.1,Retired,10,Morning,Takeaway,y,True
+Customer076,Male,29.0,23.0,22170.0,Salad & Soup,Classic Coffee,25.0,32,Debit Card,4.7,Freelancer,15,Evening,Delivery,y,True
+Customer077,Female,36.0,12.0,73781.0,Western Food,Juices,6.0,66,Credit Card,3.3,Retired,20,Afternoon,Dine-in,y,True
+Customer078,Male,39.0,42.0,62313.0,Salad & Soup,Yakult,14.0,70,E-Wallet,4.1,Employee,5,Afternoon,Dine-in,y,True
+Customer079,Female,37.0,39.0,72351.0,Pizza,Kopi Susu Lokal,29.0,62,Cash,3.8,Freelancer,20,Morning,Dine-in,y,True
+Customer080,Male,53.0,6.0,115826.0,Asian Delight,Juices,13.0,46,Debit Card,3.3,Freelancer,14,Night,Delivery,y,True
+Customer081,Male,26.0,22.0,109691.0,Pizza,Classic Coffee,28.0,13,E-Wallet,3.7,Employee,8,Night,Delivery,y,True
+Customer082,Male,56.0,14.0,133663.0,Snacks,Frappe,14.0,49,Cash,4.1,Employee,4,Evening,Takeaway,y,True
+Customer083,Female,36.0,48.0,134211.0,Spaghetti,Yakult,24.0,12,Credit Card,4.0,Freelancer,7,Night,Dine-in,y,False
+Customer084,Female,19.0,4.0,131277.0,Snacks,Yakult,10.0,89,E-Wallet,3.1,Entrepreneur,6,Evening,Delivery,y,True
+Customer085,Female,38.0,30.0,43287.0,Salad & Soup,Smoothies,30.0,78,Cash,4.7,Entrepreneur,7,Night,Takeaway,y,True
+Customer086,Female,47.0,8.0,118504.0,Pizza,Mocktail,14.0,65,Cash,2.7,Freelancer,17,Night,Dine-in,y,False
+Customer087,Female,23.0,35.0,76924.0,Western Food,Manual Brew,17.0,77,Credit Card,4.1,Retired,7,Afternoon,Delivery,y,True
+Customer088,Female,60.0,44.0,76459.0,Burgers & Sandwiches,Frappe,1.0,87,E-Wallet,2.1,Retired,5,Night,Takeaway,y,True
+Customer089,Male,31.0,9.0,87313.0,Burgers & Sandwiches,Yakult,14.0,48,Credit Card,2.7,Entrepreneur,19,Morning,Dine-in,y,True
+Customer090,Male,27.0,3.0,27178.0,Pizza,Kopi Susu Lokal,1.0,113,Debit Card,4.7,Retired,10,Morning,Takeaway,y,True
+Customer091,Male,55.0,15.0,98341.0,Spaghetti,Classic Coffee,26.0,40,Cash,1.2,Student,6,Afternoon,Takeaway,y,True
+Customer092,Male,56.0,46.0,68964.0,Burgers & Sandwiches,Kopi Susu Lokal,19.0,116,E-Wallet,4.5,Entrepreneur,8,Evening,Takeaway,y,True
+Customer093,Female,50.0,37.0,146828.0,Asian Delight,Classic Coffee,17.0,98,E-Wallet,2.5,Freelancer,20,Afternoon,Takeaway,y,True
+Customer094,Female,27.0,24.0,34070.0,Rice Bowl,Mocktail,27.0,37,Credit Card,1.2,Freelancer,18,Evening,Dine-in,y,True
+Customer095,Male,27.0,25.0,51400.0,Spaghetti,Barista Drinks,20.0,41,Cash,4.0,Student,17,Morning,Dine-in,y,False
+Customer096,Male,38.0,40.0,43624.0,Burgers & Sandwiches,Classic Coffee,1.0,61,Debit Card,3.9,Retired,13,Morning,Delivery,y,True
+Customer097,Female,34.0,33.0,99389.0,Spaghetti,Classic Coffee,13.0,57,Cash,1.5,Student,1,Evening,Delivery,y,False
+Customer098,Female,25.0,39.0,99555.0,Rice Bowl,Kopi Susu Lokal,20.0,48,Credit Card,3.0,Entrepreneur,14,Night,Delivery,y,False
+Customer099,Female,43.0,28.0,82454.0,Salad & Soup,Smoothies,3.0,45,Credit Card,4.7,Student,9,Morning,Delivery,y,False
+Customer100,Male,40.0,27.0,20350.0,Burgers & Sandwiches,Others,26.0,71,Cash,4.2,Retired,2,Night,Dine-in,y,False
+Customer101,Female,23.0,41.0,141862.0,Rice Bowl,Smoothies,28.0,26,Cash,1.1,Retired,3,Afternoon,Delivery,y,True
+Customer102,Male,36.0,5.0,124594.0,Western Food,Mocktail,27.0,59,E-Wallet,4.3,Employee,8,Night,Delivery,y,True
+Customer103,Female,46.0,44.0,115218.0,Snacks,Smoothies,20.0,101,Debit Card,3.5,Entrepreneur,20,Morning,Dine-in,y,True
+Customer104,Female,24.0,14.0,72632.0,Snacks,Yakult,7.0,97,Cash,2.3,Employee,8,Night,Dine-in,y,True
+Customer105,Female,39.0,26.0,140235.0,Rice Bowl,Juices,19.0,88,Cash,4.9,Retired,9,Morning,Takeaway,y,True
+Customer106,Female,37.0,33.0,97041.0,Rice Bowl,Barista Drinks,2.0,65,Cash,1.4,Entrepreneur,0,Night,Dine-in,y,False
+Customer107,Male,18.0,26.0,88410.0,Spaghetti,Others,23.0,37,Cash,2.5,Retired,18,Night,Takeaway,y,False
+Customer108,Female,35.0,2.0,142507.0,Asian Delight,Frappe,13.0,84,Debit Card,1.5,Student,0,Afternoon,Takeaway,y,False
+Customer109,Female,50.0,34.0,104674.0,Snacks,Others,4.0,101,Cash,1.9,Employee,5,Night,Delivery,y,True
+Customer110,Female,56.0,24.0,124091.0,Rice Bowl,Smoothies,21.0,81,Debit Card,4.6,Retired,7,Night,Dine-in,y,False
+Customer111,Male,25.0,18.0,102652.0,Salad & Soup,Juices,25.0,119,Credit Card,4.2,Student,17,Evening,Takeaway,y,True
+Customer112,Male,42.0,2.0,126930.0,Western Food,Juices,19.0,50,Credit Card,2.8,Retired,15,Morning,Takeaway,y,False
+Customer113,Male,38.0,11.0,149960.0,Salad & Soup,Mocktail,29.0,54,Cash,2.6,Student,3,Evening,Dine-in,y,True
+Customer114,Male,19.0,12.0,104850.0,Spaghetti,Mocktail,15.0,23,Debit Card,1.1,Entrepreneur,0,Night,Delivery,y,False
+Customer115,Female,56.0,47.0,99815.0,Asian Delight,Yakult,6.0,70,Credit Card,4.5,Retired,14,Morning,Dine-in,y,False
+Customer116,Female,47.0,42.0,49561.0,Salad & Soup,Yakult,23.0,28,Cash,3.9,Freelancer,17,Morning,Delivery,y,False
+Customer117,Female,59.0,1.0,69663.0,Salad & Soup,Others,8.0,38,Debit Card,3.3,Student,6,Evening,Delivery,y,False
+Customer118,Female,45.0,32.0,30979.0,Snacks,Manual Brew,10.0,115,Credit Card,3.7,Retired,16,Morning,Delivery,y,False
+Customer119,Male,21.0,25.0,138577.0,Snacks,Barista Drinks,21.0,41,E-Wallet,3.8,Freelancer,17,Night,Dine-in,y,True
+Customer120,Female,32.0,30.0,143453.0,Snacks,Mocktail,15.0,57,Credit Card,3.4,Freelancer,6,Night,Dine-in,y,True
+Customer121,Female,33.0,47.0,117135.0,Pizza,Barista Drinks,2.0,97,E-Wallet,3.6,Entrepreneur,17,Afternoon,Delivery,y,True
+Customer122,Female,44.0,30.0,125893.0,Snacks,Classic Coffee,3.0,107,Debit Card,3.5,Student,19,Evening,Takeaway,y,True
+Customer123,Female,33.0,37.0,26268.0,Western Food,Smoothies,23.0,103,Debit Card,2.3,Student,3,Afternoon,Takeaway,y,True
+Customer124,Male,32.0,46.0,103906.0,Rice Bowl,Others,27.0,38,Credit Card,1.5,Employee,8,Night,Takeaway,y,False
+Customer125,Female,51.0,40.0,136600.0,Western Food,Smoothies,17.0,30,Debit Card,3.5,Retired,8,Evening,Dine-in,y,False
+Customer126,Female,34.0,28.0,33690.0,Rice Bowl,Others,15.0,76,Credit Card,3.0,Retired,15,Night,Takeaway,y,False
+Customer127,Male,22.0,18.0,93660.0,Snacks,Manual Brew,16.0,110,Credit Card,3.4,Entrepreneur,2,Morning,Dine-in,y,True
+Customer128,Male,21.0,39.0,67465.0,Asian Delight,Barista Drinks,7.0,37,Credit Card,4.0,Employee,20,Morning,Delivery,y,True
+Customer129,Male,27.0,23.0,122169.0,Pizza,Smoothies,3.0,18,Credit Card,4.1,Student,0,Afternoon,Delivery,y,True
+Customer130,Male,28.0,3.0,40759.0,Western Food,Yakult,27.0,35,Cash,3.6,Entrepreneur,12,Evening,Dine-in,y,False
+Customer131,Female,38.0,41.0,53445.0,Western Food,Juices,14.0,31,Credit Card,1.5,Retired,10,Afternoon,Takeaway,y,False
+Customer132,Female,28.0,19.0,37045.0,Western Food,Classic Coffee,24.0,78,Credit Card,3.1,Entrepreneur,15,Evening,Delivery,y,True
+Customer133,Female,48.0,9.0,50870.0,Burgers & Sandwiches,Yakult,8.0,61,Credit Card,4.3,Employee,12,Evening,Dine-in,y,True
+Customer134,Female,43.0,7.0,32220.0,Burgers & Sandwiches,Juices,28.0,96,Credit Card,3.8,Entrepreneur,10,Evening,Delivery,y,False
+Customer135,Female,41.0,5.0,79793.0,Pizza,Manual Brew,23.0,11,E-Wallet,2.5,Retired,18,Night,Delivery,y,True
+Customer136,Male,33.0,40.0,149423.0,Spaghetti,Mocktail,21.0,104,Debit Card,2.9,Employee,19,Night,Delivery,y,False
+Customer137,Female,32.0,1.0,145714.0,Pizza,Frappe,25.0,32,E-Wallet,4.3,Freelancer,8,Morning,Delivery,y,False
+Customer138,Female,41.0,11.0,124225.0,Rice Bowl,Barista Drinks,12.0,34,Cash,3.9,Freelancer,19,Evening,Dine-in,y,False
+Customer139,Female,32.0,36.0,83822.0,Asian Delight,Others,23.0,52,E-Wallet,2.2,Entrepreneur,11,Morning,Delivery,y,False
+Customer140,Female,29.0,27.0,86683.0,Rice Bowl,Mocktail,24.0,46,Cash,2.7,Freelancer,17,Afternoon,Takeaway,y,False
+Customer141,Male,36.0,43.0,46217.0,Snacks,Mocktail,3.0,96,Credit Card,4.8,Retired,20,Night,Dine-in,y,True
+Customer142,Female,30.0,12.0,105591.0,Rice Bowl,Others,29.0,115,Credit Card,3.9,Employee,19,Evening,Dine-in,y,True
+Customer143,Male,45.0,9.0,73302.0,Rice Bowl,Juices,24.0,94,Credit Card,3.2,Employee,18,Evening,Dine-in,y,True
+Customer144,Male,56.0,17.0,37216.0,Rice Bowl,Classic Coffee,18.0,33,Cash,4.2,Entrepreneur,13,Night,Delivery,y,False
+Customer145,Female,52.0,3.0,87432.0,Asian Delight,Kopi Susu Lokal,18.0,70,Cash,2.9,Entrepreneur,4,Night,Takeaway,y,False
+Customer146,Female,56.0,48.0,88495.0,Burgers & Sandwiches,Others,10.0,14,Cash,5.0,Entrepreneur,13,Night,Dine-in,y,False
+Customer147,Male,33.0,22.0,127920.0,Asian Delight,Yakult,21.0,45,Cash,2.2,Student,3,Morning,Dine-in,y,False
+Customer148,Male,31.0,45.0,106231.0,Pizza,Classic Coffee,19.0,77,Cash,2.1,Freelancer,17,Morning,Dine-in,y,True
+Customer149,Male,55.0,20.0,97392.0,Snacks,Yakult,25.0,106,Credit Card,4.1,Student,17,Morning,Dine-in,y,True
+Customer150,Male,48.0,16.0,95463.0,Rice Bowl,Classic Coffee,23.0,74,Cash,3.4,Entrepreneur,1,Afternoon,Dine-in,y,False
+Customer151,Female,27.0,36.0,96797.0,Pizza,Frappe,12.0,110,Debit Card,3.2,Retired,9,Morning,Takeaway,y,False
+Customer152,Male,39.0,30.0,141832.0,Rice Bowl,Barista Drinks,1.0,20,Credit Card,4.4,Freelancer,12,Afternoon,Takeaway,y,True
+Customer153,Male,32.0,17.0,62429.0,Pizza,Others,8.0,66,Cash,1.6,Retired,11,Evening,Takeaway,y,False
+Customer154,Male,39.0,3.0,133838.0,Rice Bowl,Barista Drinks,13.0,54,Cash,3.6,Freelancer,3,Morning,Delivery,y,False
+Customer155,Female,50.0,3.0,142390.0,Western Food,Mocktail,5.0,99,E-Wallet,3.6,Entrepreneur,8,Morning,Dine-in,y,True
+Customer156,Female,56.0,16.0,43596.0,Western Food,Others,30.0,95,Credit Card,1.0,Employee,15,Evening,Delivery,y,False
+Customer157,Male,42.0,27.0,115145.0,Snacks,Others,8.0,44,Credit Card,5.0,Student,19,Morning,Takeaway,y,True
+Customer158,Male,52.0,19.0,146386.0,Snacks,Smoothies,18.0,73,Credit Card,5.0,Freelancer,8,Evening,Delivery,y,False
+Customer159,Female,32.0,6.0,81409.0,Salad & Soup,Frappe,30.0,22,E-Wallet,4.6,Retired,6,Evening,Delivery,y,False
+Customer160,Female,26.0,6.0,49570.0,Asian Delight,Mocktail,29.0,54,Debit Card,4.6,Retired,15,Evening,Dine-in,y,True
+Customer161,Female,25.0,46.0,140516.0,Snacks,Barista Drinks,5.0,117,Debit Card,4.3,Student,1,Afternoon,Dine-in,y,True
+Customer162,Male,45.0,20.0,49665.0,Salad & Soup,Smoothies,21.0,96,Cash,1.1,Student,6,Evening,Delivery,y,True
+Customer163,Female,39.0,4.0,106893.0,Burgers & Sandwiches,Barista Drinks,10.0,93,Credit Card,2.3,Freelancer,5,Afternoon,Dine-in,y,False
+Customer164,Female,32.0,25.0,66006.0,Snacks,Others,24.0,63,E-Wallet,4.8,Employee,14,Morning,Takeaway,y,False
+Customer165,Male,23.0,35.0,110837.0,Spaghetti,Barista Drinks,4.0,59,Credit Card,1.8,Entrepreneur,7,Morning,Dine-in,y,True
+Customer166,Female,52.0,12.0,96873.0,Snacks,Kopi Susu Lokal,18.0,100,Cash,3.8,Student,1,Afternoon,Delivery,y,True
+Customer167,Male,27.0,38.0,126869.0,Burgers & Sandwiches,Juices,12.0,11,Debit Card,3.3,Entrepreneur,14,Evening,Takeaway,y,False
+Customer168,Female,52.0,26.0,68147.0,Pizza,Kopi Susu Lokal,8.0,32,E-Wallet,4.8,Student,19,Night,Takeaway,y,False
+Customer169,Female,58.0,47.0,44431.0,Western Food,Kopi Susu Lokal,9.0,15,Debit Card,1.8,Freelancer,6,Afternoon,Dine-in,y,True
+Customer170,Female,47.0,48.0,57741.0,Pizza,Manual Brew,14.0,60,Credit Card,2.2,Retired,14,Afternoon,Delivery,y,False
+Customer171,Female,40.0,16.0,82714.0,Western Food,Classic Coffee,19.0,28,Cash,2.8,Entrepreneur,8,Night,Delivery,y,False
+Customer172,Male,42.0,21.0,104814.0,Snacks,Others,20.0,61,Cash,1.5,Employee,16,Morning,Delivery,y,True
+Customer173,Male,27.0,13.0,45877.0,Salad & Soup,Manual Brew,27.0,106,Cash,4.1,Student,0,Morning,Takeaway,y,False
+Customer174,Female,39.0,9.0,119940.0,Western Food,Kopi Susu Lokal,25.0,58,Credit Card,1.5,Freelancer,10,Afternoon,Dine-in,y,True
+Customer175,Male,39.0,25.0,26340.0,Rice Bowl,Mocktail,26.0,20,E-Wallet,2.4,Student,13,Evening,Takeaway,y,False
+Customer176,Male,25.0,48.0,104913.0,Spaghetti,Smoothies,29.0,69,E-Wallet,3.0,Freelancer,3,Evening,Takeaway,y,False
+Customer177,Female,52.0,23.0,140054.0,Pizza,Classic Coffee,3.0,65,Cash,2.0,Freelancer,10,Morning,Dine-in,y,False
+Customer178,Male,29.0,33.0,52666.0,Rice Bowl,Barista Drinks,18.0,119,Cash,1.9,Student,13,Morning,Dine-in,y,False
+Customer179,Male,41.0,11.0,36646.0,Pizza,Juices,14.0,29,Debit Card,1.5,Retired,9,Afternoon,Delivery,y,True
+Customer180,Female,51.0,48.0,66018.0,Spaghetti,Yakult,26.0,42,Cash,4.3,Freelancer,4,Afternoon,Dine-in,y,False
+Customer181,Female,32.0,35.0,112642.0,Spaghetti,Yakult,6.0,39,Cash,4.9,Entrepreneur,10,Evening,Delivery,y,True
+Customer182,Female,51.0,47.0,149348.0,Spaghetti,Manual Brew,27.0,116,Cash,3.1,Student,15,Evening,Delivery,y,True
+Customer183,Male,60.0,26.0,74857.0,Western Food,Yakult,5.0,86,Credit Card,4.1,Entrepreneur,13,Afternoon,Delivery,y,False
+Customer184,Female,26.0,26.0,54485.0,Rice Bowl,Mocktail,23.0,70,Cash,2.9,Employee,12,Night,Dine-in,y,False
+Customer185,Male,30.0,14.0,21353.0,Pizza,Frappe,2.0,53,E-Wallet,4.0,Entrepreneur,5,Evening,Delivery,y,False
+Customer186,Female,23.0,27.0,128584.0,Asian Delight,Barista Drinks,30.0,21,Cash,1.3,Employee,15,Evening,Takeaway,y,True
+Customer187,Female,38.0,14.0,38431.0,Western Food,Yakult,23.0,110,Debit Card,4.1,Student,7,Night,Delivery,y,True
+Customer188,Male,58.0,2.0,81378.0,Salad & Soup,Juices,12.0,70,Cash,2.7,Employee,5,Night,Takeaway,y,True
+Customer189,Male,29.0,4.0,68101.0,Asian Delight,Frappe,3.0,46,Cash,4.7,Employee,16,Afternoon,Delivery,y,False
+Customer190,Male,46.0,33.0,112001.0,Snacks,Kopi Susu Lokal,30.0,64,Credit Card,2.0,Freelancer,2,Afternoon,Takeaway,y,False
+Customer191,Male,43.0,8.0,118308.0,Salad & Soup,Mocktail,29.0,57,Debit Card,3.1,Retired,1,Night,Takeaway,y,True
+Customer192,Female,41.0,29.0,64077.0,Western Food,Kopi Susu Lokal,5.0,81,Debit Card,3.0,Entrepreneur,14,Afternoon,Dine-in,y,False
+Customer193,Male,23.0,44.0,73290.0,Western Food,Mocktail,17.0,118,Debit Card,3.6,Freelancer,9,Morning,Takeaway,y,True
+Customer194,Male,60.0,13.0,104033.0,Western Food,Barista Drinks,23.0,56,Cash,4.2,Retired,16,Night,Dine-in,y,True
+Customer195,Female,44.0,36.0,58267.0,Spaghetti,Smoothies,8.0,22,Debit Card,3.2,Freelancer,12,Morning,Takeaway,y,False
+Customer196,Female,31.0,41.0,53483.0,Salad & Soup,Yakult,5.0,56,Cash,1.2,Employee,9,Night,Takeaway,y,True
+Customer197,Female,30.0,42.0,145544.0,Rice Bowl,Kopi Susu Lokal,5.0,61,Cash,1.2,Freelancer,9,Evening,Delivery,y,True
+Customer198,Male,59.0,31.0,85069.0,Asian Delight,Kopi Susu Lokal,22.0,26,Debit Card,3.6,Employee,18,Evening,Takeaway,y,True
+Customer199,Female,27.0,37.0,105005.0,Snacks,Barista Drinks,6.0,72,Debit Card,1.9,Employee,8,Morning,Delivery,y,True
+Customer200,Female,18.0,37.0,142105.0,Western Food,Barista Drinks,27.0,65,Credit Card,3.8,Student,1,Morning,Delivery,y,True
+Customer201,Male,44.0,28.0,133688.0,Spaghetti,Yakult,18.0,83,Debit Card,3.9,Entrepreneur,9,Evening,Delivery,y,False
+Customer202,Male,48.0,38.0,135709.0,Rice Bowl,Kopi Susu Lokal,27.0,17,E-Wallet,3.2,Entrepreneur,14,Night,Dine-in,y,False
+Customer203,Female,18.0,7.0,23375.0,Rice Bowl,Others,28.0,54,Credit Card,4.4,Retired,15,Evening,Takeaway,y,False
+Customer204,Male,26.0,41.0,63014.0,Asian Delight,Frappe,3.0,43,E-Wallet,3.5,Student,10,Afternoon,Takeaway,y,True
+Customer205,Female,23.0,7.0,21547.0,Pizza,Kopi Susu Lokal,12.0,74,Debit Card,2.2,Retired,19,Evening,Takeaway,y,False
+Customer206,Male,18.0,38.0,110712.0,Burgers & Sandwiches,Classic Coffee,9.0,109,E-Wallet,3.7,Freelancer,16,Evening,Delivery,y,False
+Customer207,Female,44.0,13.0,75118.0,Snacks,Kopi Susu Lokal,22.0,89,Credit Card,2.8,Freelancer,9,Morning,Takeaway,y,True
+Customer208,Male,30.0,8.0,146608.0,Spaghetti,Manual Brew,16.0,112,Debit Card,1.5,Student,15,Afternoon,Delivery,y,False
+Customer209,Female,31.0,44.0,44229.0,Spaghetti,Smoothies,16.0,71,Credit Card,4.6,Entrepreneur,20,Afternoon,Dine-in,y,True
+Customer210,Male,35.0,13.0,65101.0,Burgers & Sandwiches,Kopi Susu Lokal,6.0,100,Credit Card,2.2,Employee,5,Morning,Dine-in,y,False
+Customer211,Female,54.0,45.0,76460.0,Rice Bowl,Yakult,16.0,41,Debit Card,3.9,Employee,9,Morning,Takeaway,y,True
+Customer212,Female,47.0,22.0,122301.0,Pizza,Classic Coffee,15.0,70,Cash,3.5,Retired,1,Morning,Dine-in,y,False
+Customer213,Male,37.0,41.0,75477.0,Salad & Soup,Manual Brew,13.0,49,E-Wallet,2.3,Employee,6,Afternoon,Delivery,y,True
+Customer214,Female,18.0,4.0,20574.0,Asian Delight,Manual Brew,12.0,19,E-Wallet,2.3,Entrepreneur,11,Morning,Delivery,y,False
+Customer215,Male,42.0,8.0,97926.0,Western Food,Yakult,24.0,52,Debit Card,4.8,Freelancer,12,Morning,Takeaway,y,False
+Customer216,Male,25.0,27.0,92073.0,Western Food,Kopi Susu Lokal,12.0,26,E-Wallet,3.9,Employee,8,Evening,Takeaway,y,False
+Customer217,Male,37.0,32.0,79369.0,Burgers & Sandwiches,Barista Drinks,15.0,76,Debit Card,1.4,Student,16,Morning,Delivery,y,False
+Customer218,Female,47.0,49.0,93905.0,Salad & Soup,Mocktail,11.0,20,E-Wallet,3.8,Entrepreneur,15,Afternoon,Takeaway,y,False
+Customer219,Female,21.0,38.0,64844.0,Rice Bowl,Yakult,10.0,65,Debit Card,1.1,Student,1,Morning,Takeaway,y,True
+Customer220,Male,28.0,39.0,146745.0,Asian Delight,Mocktail,28.0,90,E-Wallet,3.5,Student,12,Morning,Dine-in,y,True
+Customer221,Female,37.0,26.0,71517.0,Asian Delight,Frappe,12.0,97,Credit Card,2.6,Entrepreneur,0,Evening,Takeaway,y,True
+Customer222,Female,58.0,28.0,72710.0,Rice Bowl,Barista Drinks,22.0,97,E-Wallet,1.7,Entrepreneur,2,Night,Delivery,y,False
+Customer223,Male,27.0,4.0,23949.0,Snacks,Manual Brew,15.0,20,Credit Card,3.0,Employee,9,Evening,Takeaway,y,False
+Customer224,Male,38.0,12.0,146570.0,Snacks,Classic Coffee,26.0,119,Debit Card,4.7,Entrepreneur,8,Evening,Delivery,y,False
+Customer225,Male,59.0,1.0,42821.0,Rice Bowl,Classic Coffee,25.0,119,E-Wallet,1.5,Student,2,Night,Dine-in,y,False
+Customer226,Female,27.0,10.0,123129.0,Burgers & Sandwiches,Mocktail,8.0,89,Debit Card,4.2,Freelancer,8,Morning,Takeaway,y,True
+Customer227,Male,28.0,26.0,40839.0,Salad & Soup,Frappe,21.0,72,Cash,3.9,Retired,9,Morning,Takeaway,y,True
+Customer228,Male,30.0,35.0,36859.0,Rice Bowl,Mocktail,27.0,107,Cash,3.9,Retired,14,Night,Takeaway,y,False
+Customer229,Male,45.0,10.0,93840.0,Pizza,Frappe,30.0,112,Debit Card,4.6,Student,8,Morning,Takeaway,y,False
+Customer230,Female,31.0,23.0,38318.0,Spaghetti,Smoothies,25.0,68,Credit Card,3.8,Employee,17,Morning,Takeaway,y,False
+Customer231,Male,46.0,26.0,115565.0,Rice Bowl,Manual Brew,2.0,103,Debit Card,1.4,Freelancer,6,Night,Dine-in,y,True
+Customer232,Female,39.0,45.0,107931.0,Western Food,Manual Brew,16.0,88,Credit Card,4.3,Entrepreneur,11,Evening,Takeaway,y,False
+Customer233,Female,29.0,33.0,75737.0,Western Food,Manual Brew,16.0,86,Credit Card,3.1,Employee,19,Afternoon,Takeaway,y,False
+Customer234,Male,55.0,11.0,57060.0,Asian Delight,Classic Coffee,24.0,103,Debit Card,1.7,Employee,17,Evening,Takeaway,y,False
+Customer235,Male,37.0,3.0,114830.0,Burgers & Sandwiches,Mocktail,22.0,86,Credit Card,3.6,Employee,17,Morning,Delivery,y,False
+Customer236,Male,50.0,33.0,135277.0,Asian Delight,Yakult,30.0,85,Cash,1.3,Freelancer,14,Afternoon,Delivery,y,True
+Customer237,Female,23.0,5.0,40533.0,Western Food,Juices,3.0,19,E-Wallet,1.3,Retired,9,Morning,Dine-in,y,False
+Customer238,Male,54.0,47.0,74469.0,Pizza,Mocktail,28.0,107,Cash,2.3,Freelancer,20,Morning,Delivery,y,False
+Customer239,Male,18.0,43.0,63164.0,Snacks,Frappe,7.0,110,Cash,3.7,Employee,13,Afternoon,Delivery,y,False
+Customer240,Male,38.0,31.0,144011.0,Burgers & Sandwiches,Mocktail,27.0,107,E-Wallet,2.3,Student,0,Afternoon,Dine-in,y,False
+Customer241,Female,58.0,21.0,85222.0,Western Food,Frappe,15.0,38,Cash,1.9,Freelancer,11,Morning,Takeaway,y,False
+Customer242,Female,32.0,33.0,102746.0,Snacks,Kopi Susu Lokal,6.0,78,Credit Card,3.8,Retired,12,Morning,Takeaway,y,True
+Customer243,Female,50.0,46.0,101589.0,Snacks,Kopi Susu Lokal,22.0,24,Credit Card,1.2,Freelancer,1,Night,Takeaway,y,True
+Customer244,Male,22.0,35.0,50495.0,Western Food,Classic Coffee,6.0,58,Debit Card,2.4,Entrepreneur,0,Night,Dine-in,y,True
+Customer245,Female,47.0,41.0,67757.0,Burgers & Sandwiches,Frappe,10.0,96,Credit Card,4.3,Retired,4,Night,Takeaway,y,False
+Customer246,Female,30.0,30.0,43708.0,Burgers & Sandwiches,Others,1.0,101,Debit Card,3.4,Freelancer,17,Evening,Takeaway,y,True
+Customer247,Female,43.0,42.0,28805.0,Pizza,Classic Coffee,28.0,89,E-Wallet,3.2,Freelancer,2,Afternoon,Dine-in,y,False
+Customer248,Female,20.0,47.0,53562.0,Pizza,Manual Brew,24.0,53,Credit Card,2.4,Entrepreneur,13,Morning,Takeaway,y,False
+Customer249,Female,21.0,8.0,44823.0,Salad & Soup,Juices,23.0,117,Cash,4.0,Retired,17,Morning,Dine-in,y,True
+Customer250,Female,38.0,17.0,24678.0,Salad & Soup,Frappe,8.0,44,Debit Card,4.5,Student,1,Afternoon,Dine-in,y,True
+Customer251,Female,19.0,41.0,141802.0,Pizza,Smoothies,19.0,70,Debit Card,3.5,Freelancer,6,Morning,Dine-in,y,True
+Customer252,Male,31.0,46.0,138234.0,Snacks,Others,1.0,58,E-Wallet,4.1,Retired,7,Afternoon,Delivery,y,True
+Customer253,Female,60.0,13.0,98226.0,Pizza,Smoothies,7.0,20,Debit Card,4.2,Freelancer,10,Afternoon,Delivery,y,True
+Customer254,Female,44.0,49.0,55698.0,Pizza,Manual Brew,27.0,69,E-Wallet,3.4,Freelancer,16,Morning,Takeaway,y,False
+Customer255,Female,51.0,15.0,124375.0,Western Food,Others,9.0,49,Cash,2.9,Student,5,Night,Takeaway,y,True
+Customer256,Female,24.0,32.0,25988.0,Pizza,Others,4.0,67,Credit Card,3.5,Student,12,Morning,Dine-in,y,True
+Customer257,Female,31.0,25.0,115325.0,Salad & Soup,Frappe,4.0,43,Debit Card,2.1,Employee,7,Night,Takeaway,y,True
+Customer258,Male,38.0,44.0,114286.0,Rice Bowl,Juices,11.0,107,Debit Card,1.5,Entrepreneur,4,Night,Dine-in,y,True
+Customer259,Male,18.0,24.0,53359.0,Asian Delight,Others,30.0,10,Debit Card,2.2,Entrepreneur,18,Morning,Delivery,y,False
+Customer260,Male,58.0,21.0,118054.0,Spaghetti,Classic Coffee,27.0,80,E-Wallet,3.6,Student,20,Afternoon,Dine-in,y,False
+Customer261,Male,43.0,26.0,54898.0,Pizza,Barista Drinks,13.0,84,E-Wallet,3.8,Freelancer,16,Afternoon,Takeaway,y,False
+Customer262,Female,37.0,3.0,64715.0,Snacks,Mocktail,18.0,93,Debit Card,3.0,Retired,1,Evening,Takeaway,y,False
+Customer263,Female,57.0,23.0,89673.0,Burgers & Sandwiches,Smoothies,16.0,66,Credit Card,1.4,Employee,14,Morning,Takeaway,y,False
+Customer264,Male,35.0,27.0,121351.0,Burgers & Sandwiches,Others,27.0,18,Debit Card,4.6,Retired,10,Afternoon,Delivery,y,True
+Customer265,Female,26.0,3.0,99249.0,Spaghetti,Kopi Susu Lokal,21.0,25,Cash,2.8,Employee,0,Night,Delivery,y,True
+Customer266,Female,22.0,20.0,48117.0,Pizza,Classic Coffee,7.0,107,Cash,3.5,Freelancer,11,Morning,Dine-in,y,True
+Customer267,Female,59.0,24.0,51641.0,Salad & Soup,Barista Drinks,18.0,81,Credit Card,3.5,Employee,11,Night,Takeaway,y,False
+Customer268,Male,19.0,47.0,25309.0,Pizza,Yakult,25.0,103,E-Wallet,2.1,Student,16,Afternoon,Dine-in,y,True
+Customer269,Female,54.0,36.0,40485.0,Asian Delight,Classic Coffee,17.0,59,E-Wallet,1.8,Entrepreneur,1,Night,Delivery,y,False
+Customer270,Female,37.0,25.0,106735.0,Western Food,Juices,8.0,17,Credit Card,3.8,Entrepreneur,8,Afternoon,Delivery,y,False
+Customer271,Female,18.0,8.0,138580.0,Spaghetti,Barista Drinks,10.0,24,Credit Card,3.4,Employee,11,Evening,Delivery,y,False
+Customer272,Male,39.0,5.0,32787.0,Rice Bowl,Frappe,4.0,43,Cash,3.5,Employee,17,Morning,Takeaway,y,False
+Customer273,Female,27.0,20.0,56531.0,Snacks,Classic Coffee,25.0,70,E-Wallet,2.0,Retired,10,Night,Takeaway,y,True
+Customer274,Female,43.0,47.0,84707.0,Western Food,Yakult,30.0,24,Credit Card,4.9,Freelancer,3,Afternoon,Dine-in,y,False
+Customer275,Male,48.0,6.0,84729.0,Western Food,Smoothies,10.0,97,Debit Card,3.1,Employee,12,Morning,Delivery,y,False
+Customer276,Male,24.0,23.0,49567.0,Burgers & Sandwiches,Others,28.0,60,E-Wallet,3.3,Employee,13,Morning,Dine-in,y,True
+Customer277,Male,29.0,9.0,90914.0,Burgers & Sandwiches,Barista Drinks,14.0,38,Debit Card,3.8,Entrepreneur,1,Night,Takeaway,y,False
+Customer278,Female,51.0,2.0,144858.0,Burgers & Sandwiches,Manual Brew,8.0,115,Cash,3.1,Retired,13,Afternoon,Takeaway,y,True
+Customer279,Female,46.0,7.0,111092.0,Spaghetti,Others,29.0,13,Credit Card,1.3,Freelancer,4,Afternoon,Dine-in,y,False
+Customer280,Female,45.0,49.0,30275.0,Salad & Soup,Kopi Susu Lokal,16.0,107,Credit Card,4.3,Employee,0,Morning,Delivery,y,True
+Customer281,Male,19.0,24.0,136456.0,Spaghetti,Barista Drinks,22.0,84,Debit Card,3.1,Freelancer,4,Afternoon,Dine-in,y,True
+Customer282,Male,54.0,32.0,50672.0,Western Food,Classic Coffee,7.0,119,Debit Card,4.6,Entrepreneur,10,Evening,Delivery,y,True
+Customer283,Male,56.0,41.0,93446.0,Western Food,Mocktail,16.0,107,Debit Card,2.5,Entrepreneur,12,Morning,Delivery,y,False
+Customer284,Male,43.0,34.0,107512.0,Salad & Soup,Mocktail,28.0,120,Debit Card,1.3,Retired,1,Morning,Dine-in,y,False
+Customer285,Male,36.0,48.0,135009.0,Salad & Soup,Juices,5.0,23,E-Wallet,4.2,Freelancer,5,Morning,Dine-in,y,True
+Customer286,Female,30.0,49.0,36209.0,Burgers & Sandwiches,Juices,19.0,51,Credit Card,3.0,Retired,13,Morning,Dine-in,y,True
+Customer287,Male,54.0,33.0,93278.0,Salad & Soup,Classic Coffee,16.0,38,E-Wallet,1.7,Retired,17,Night,Delivery,y,False
+Customer288,Male,18.0,22.0,46849.0,Spaghetti,Manual Brew,13.0,54,Credit Card,1.6,Entrepreneur,7,Morning,Delivery,y,True
+Customer289,Female,34.0,28.0,38094.0,Western Food,Kopi Susu Lokal,22.0,41,E-Wallet,1.6,Retired,12,Night,Delivery,y,False
+Customer290,Female,39.0,20.0,51928.0,Pizza,Manual Brew,7.0,97,Cash,4.7,Freelancer,13,Night,Delivery,y,True
+Customer291,Male,28.0,37.0,51894.0,Burgers & Sandwiches,Yakult,20.0,79,Debit Card,1.5,Freelancer,3,Evening,Takeaway,y,True
+Customer292,Female,19.0,6.0,112149.0,Western Food,Frappe,30.0,23,Credit Card,3.6,Student,7,Afternoon,Dine-in,y,True
+Customer293,Male,27.0,28.0,89965.0,Burgers & Sandwiches,Frappe,25.0,12,Debit Card,3.9,Employee,2,Night,Delivery,y,False
+Customer294,Male,20.0,8.0,125532.0,Spaghetti,Juices,18.0,51,Debit Card,3.5,Freelancer,12,Morning,Dine-in,y,False
+Customer295,Male,51.0,15.0,149178.0,Pizza,Classic Coffee,3.0,115,Credit Card,4.2,Student,9,Afternoon,Takeaway,y,False
+Customer296,Female,44.0,25.0,53451.0,Salad & Soup,Mocktail,14.0,97,Credit Card,3.1,Freelancer,7,Night,Dine-in,y,False
+Customer297,Female,51.0,9.0,30975.0,Western Food,Yakult,23.0,85,Cash,3.7,Freelancer,11,Evening,Takeaway,y,False
+Customer298,Male,54.0,25.0,62443.0,Pizza,Manual Brew,30.0,26,Cash,1.3,Freelancer,10,Evening,Delivery,y,False
+Customer299,Male,40.0,37.0,137465.0,Burgers & Sandwiches,Others,12.0,68,Debit Card,2.4,Retired,19,Evening,Delivery,y,True
+Customer300,Female,39.0,33.0,66428.0,Pizza,Juices,18.0,115,Credit Card,2.9,Student,13,Morning,Takeaway,y,False
+Customer301,Male,48.0,12.0,92977.0,Burgers & Sandwiches,Kopi Susu Lokal,23.0,47,Credit Card,2.2,Freelancer,10,Evening,Delivery,y,False
+Customer302,Male,19.0,21.0,31071.0,Burgers & Sandwiches,Kopi Susu Lokal,10.0,41,Credit Card,1.0,Student,4,Afternoon,Delivery,y,False
+Customer303,Female,30.0,44.0,133841.0,Salad & Soup,Others,26.0,30,Credit Card,4.4,Freelancer,1,Evening,Takeaway,y,False
+Customer304,Male,57.0,7.0,27000.0,Pizza,Frappe,2.0,113,Credit Card,1.7,Student,8,Evening,Dine-in,y,False
+Customer305,Male,49.0,35.0,67937.0,Spaghetti,Classic Coffee,21.0,59,Credit Card,2.1,Entrepreneur,20,Afternoon,Takeaway,y,False
+Customer306,Female,59.0,48.0,107390.0,Burgers & Sandwiches,Smoothies,22.0,19,Credit Card,1.8,Retired,4,Afternoon,Delivery,y,True
+Customer307,Female,33.0,4.0,45157.0,Salad & Soup,Frappe,2.0,75,Cash,2.0,Employee,5,Afternoon,Dine-in,y,True
+Customer308,Male,26.0,13.0,115230.0,Asian Delight,Frappe,11.0,26,Credit Card,3.6,Freelancer,5,Afternoon,Delivery,y,False
+Customer309,Female,41.0,36.0,90900.0,Snacks,Juices,1.0,56,Credit Card,2.6,Retired,16,Night,Delivery,y,True
+Customer310,Male,27.0,31.0,140208.0,Rice Bowl,Manual Brew,4.0,27,Debit Card,3.7,Freelancer,16,Evening,Delivery,y,True
+Customer311,Male,28.0,36.0,116867.0,Spaghetti,Kopi Susu Lokal,27.0,45,Credit Card,1.7,Employee,7,Night,Dine-in,y,True
+Customer312,Female,53.0,45.0,123287.0,Asian Delight,Manual Brew,29.0,52,Debit Card,2.1,Entrepreneur,18,Night,Takeaway,y,True
+Customer313,Male,54.0,36.0,62382.0,Burgers & Sandwiches,Manual Brew,4.0,109,E-Wallet,2.4,Student,14,Morning,Takeaway,y,True
+Customer314,Female,38.0,33.0,64805.0,Asian Delight,Barista Drinks,29.0,80,Cash,4.7,Employee,0,Evening,Dine-in,y,False
+Customer315,Female,18.0,26.0,100533.0,Western Food,Yakult,3.0,17,Debit Card,3.6,Employee,13,Night,Takeaway,y,False
+Customer316,Female,58.0,27.0,73235.0,Salad & Soup,Yakult,2.0,72,Debit Card,2.9,Student,11,Afternoon,Takeaway,y,True
+Customer317,Male,34.0,21.0,147662.0,Western Food,Mocktail,19.0,79,Cash,4.1,Entrepreneur,8,Night,Takeaway,y,False
+Customer318,Female,60.0,9.0,24424.0,Asian Delight,Mocktail,7.0,101,Cash,2.7,Employee,20,Afternoon,Takeaway,y,False
+Customer319,Male,44.0,1.0,127803.0,Asian Delight,Manual Brew,25.0,67,Debit Card,4.7,Freelancer,14,Afternoon,Takeaway,y,False
+Customer320,Female,27.0,36.0,129266.0,Rice Bowl,Others,21.0,18,Debit Card,1.8,Employee,1,Evening,Dine-in,y,False
+Customer321,Male,27.0,45.0,112539.0,Snacks,Others,11.0,116,Credit Card,1.5,Freelancer,19,Afternoon,Delivery,y,False
+Customer322,Male,20.0,48.0,44410.0,Salad & Soup,Mocktail,20.0,110,Cash,5.0,Freelancer,1,Night,Dine-in,y,True
+Customer323,Female,50.0,45.0,60595.0,Snacks,Smoothies,9.0,114,Debit Card,4.3,Freelancer,3,Morning,Takeaway,y,True
+Customer324,Male,49.0,11.0,67374.0,Salad & Soup,Juices,16.0,91,Cash,3.4,Student,4,Afternoon,Dine-in,y,False
+Customer325,Male,53.0,9.0,68331.0,Salad & Soup,Smoothies,21.0,57,Debit Card,2.1,Retired,6,Morning,Takeaway,y,True
+Customer326,Female,44.0,4.0,53092.0,Salad & Soup,Others,6.0,103,Cash,3.7,Retired,11,Evening,Takeaway,y,True
+Customer327,Female,46.0,20.0,124356.0,Salad & Soup,Barista Drinks,18.0,50,Debit Card,4.1,Retired,5,Afternoon,Takeaway,y,True
+Customer328,Male,31.0,27.0,59438.0,Burgers & Sandwiches,Others,10.0,65,Debit Card,4.5,Student,1,Evening,Delivery,y,True
+Customer329,Male,46.0,12.0,36935.0,Pizza,Mocktail,5.0,86,E-Wallet,3.6,Entrepreneur,9,Morning,Takeaway,y,False
+Customer330,Male,56.0,42.0,64582.0,Burgers & Sandwiches,Manual Brew,3.0,111,Credit Card,2.5,Freelancer,9,Morning,Delivery,y,True
+Customer331,Male,58.0,48.0,143988.0,Western Food,Classic Coffee,20.0,55,Cash,3.1,Freelancer,0,Evening,Takeaway,y,False
+Customer332,Female,58.0,47.0,128015.0,Snacks,Yakult,5.0,62,Cash,2.3,Student,18,Night,Dine-in,y,False
+Customer333,Female,32.0,23.0,56415.0,Pizza,Classic Coffee,24.0,15,Debit Card,2.5,Retired,2,Afternoon,Dine-in,y,True
+Customer334,Female,26.0,43.0,54582.0,Pizza,Barista Drinks,13.0,76,Credit Card,4.6,Student,15,Afternoon,Takeaway,y,False
+Customer335,Male,19.0,48.0,101414.0,Snacks,Frappe,21.0,85,Cash,1.6,Employee,15,Morning,Dine-in,y,False
+Customer336,Female,58.0,5.0,52394.0,Pizza,Smoothies,22.0,118,E-Wallet,4.7,Entrepreneur,7,Afternoon,Dine-in,y,True
+Customer337,Male,49.0,32.0,38188.0,Snacks,Frappe,23.0,112,Debit Card,2.5,Student,5,Evening,Dine-in,y,True
+Customer338,Male,59.0,49.0,134140.0,Rice Bowl,Manual Brew,25.0,80,Cash,4.0,Entrepreneur,17,Evening,Dine-in,y,False
+Customer339,Female,57.0,3.0,116152.0,Rice Bowl,Smoothies,17.0,84,E-Wallet,3.8,Employee,14,Evening,Dine-in,y,False
+Customer340,Male,25.0,16.0,131044.0,Burgers & Sandwiches,Smoothies,26.0,16,Cash,2.9,Student,20,Night,Dine-in,y,True
+Customer341,Male,43.0,5.0,29780.0,Western Food,Mocktail,17.0,109,E-Wallet,2.1,Retired,1,Night,Delivery,y,False
+Customer342,Female,23.0,36.0,126975.0,Spaghetti,Manual Brew,21.0,72,Debit Card,3.8,Freelancer,9,Night,Takeaway,y,False
+Customer343,Male,36.0,22.0,20510.0,Spaghetti,Kopi Susu Lokal,30.0,73,E-Wallet,4.3,Entrepreneur,12,Night,Takeaway,y,True
+Customer344,Male,48.0,6.0,146695.0,Burgers & Sandwiches,Classic Coffee,16.0,90,Cash,3.1,Entrepreneur,14,Morning,Takeaway,y,True
+Customer345,Male,51.0,35.0,25514.0,Snacks,Yakult,7.0,69,Cash,4.8,Employee,4,Afternoon,Delivery,y,True
+Customer346,Male,39.0,39.0,51816.0,Burgers & Sandwiches,Barista Drinks,28.0,103,Credit Card,1.6,Retired,3,Evening,Takeaway,y,True
+Customer347,Female,60.0,38.0,27841.0,Snacks,Yakult,1.0,91,E-Wallet,3.3,Student,12,Evening,Delivery,y,True
+Customer348,Male,33.0,32.0,89396.0,Salad & Soup,Mocktail,27.0,62,Credit Card,2.8,Student,7,Morning,Takeaway,y,True
+Customer349,Female,23.0,8.0,87524.0,Burgers & Sandwiches,Kopi Susu Lokal,10.0,20,Debit Card,3.9,Freelancer,17,Afternoon,Dine-in,y,False
+Customer350,Male,51.0,29.0,122820.0,Burgers & Sandwiches,Yakult,8.0,71,Credit Card,2.3,Entrepreneur,19,Afternoon,Dine-in,y,False
+Customer351,Male,51.0,41.0,96966.0,Pizza,Mocktail,15.0,18,Credit Card,3.1,Retired,7,Evening,Delivery,y,False
+Customer352,Male,26.0,16.0,87367.0,Snacks,Kopi Susu Lokal,20.0,104,Credit Card,2.6,Entrepreneur,14,Morning,Delivery,y,False
+Customer353,Female,37.0,31.0,25080.0,Asian Delight,Others,7.0,87,Debit Card,3.8,Employee,15,Evening,Takeaway,y,False
+Customer354,Male,55.0,8.0,36725.0,Pizza,Frappe,28.0,86,E-Wallet,3.4,Retired,3,Night,Takeaway,y,False
+Customer355,Male,49.0,49.0,100455.0,Snacks,Juices,12.0,81,Debit Card,2.0,Student,20,Evening,Dine-in,y,True
+Customer356,Female,32.0,23.0,52172.0,Snacks,Barista Drinks,5.0,50,Debit Card,2.8,Employee,18,Afternoon,Takeaway,y,False
+Customer357,Female,48.0,16.0,144954.0,Pizza,Frappe,25.0,81,E-Wallet,1.2,Employee,9,Morning,Dine-in,y,False
+Customer358,Female,27.0,44.0,83276.0,Salad & Soup,Mocktail,1.0,37,Cash,1.5,Student,17,Morning,Takeaway,y,True
+Customer359,Female,46.0,13.0,144011.0,Asian Delight,Classic Coffee,6.0,12,Debit Card,2.0,Retired,10,Morning,Dine-in,y,True
+Customer360,Female,41.0,21.0,95092.0,Western Food,Mocktail,23.0,108,Debit Card,1.3,Student,5,Evening,Dine-in,y,False
+Customer361,Female,31.0,24.0,27305.0,Asian Delight,Manual Brew,16.0,57,E-Wallet,1.8,Entrepreneur,18,Afternoon,Dine-in,y,False
+Customer362,Female,26.0,44.0,45162.0,Salad & Soup,Mocktail,20.0,64,E-Wallet,4.4,Employee,1,Morning,Dine-in,y,True
+Customer363,Male,40.0,39.0,99622.0,Asian Delight,Mocktail,30.0,12,Credit Card,4.2,Freelancer,3,Evening,Takeaway,y,False
+Customer364,Male,25.0,20.0,131830.0,Salad & Soup,Kopi Susu Lokal,16.0,73,Debit Card,2.1,Entrepreneur,18,Morning,Delivery,y,False
+Customer365,Male,21.0,5.0,149988.0,Western Food,Barista Drinks,12.0,17,Debit Card,1.8,Student,3,Night,Dine-in,y,False
+Customer366,Male,45.0,11.0,126389.0,Burgers & Sandwiches,Mocktail,2.0,60,Cash,4.5,Entrepreneur,4,Morning,Dine-in,y,False
+Customer367,Female,19.0,24.0,50075.0,Western Food,Barista Drinks,23.0,55,E-Wallet,4.7,Student,0,Morning,Delivery,y,False
+Customer368,Male,41.0,2.0,69598.0,Western Food,Others,4.0,92,Cash,3.2,Entrepreneur,1,Night,Delivery,y,False
+Customer369,Female,20.0,44.0,65857.0,Asian Delight,Juices,26.0,16,Cash,3.6,Student,15,Afternoon,Delivery,y,False
+Customer370,Male,28.0,18.0,25734.0,Salad & Soup,Kopi Susu Lokal,7.0,31,Debit Card,1.1,Retired,9,Evening,Takeaway,y,False
+Customer371,Male,53.0,39.0,51518.0,Asian Delight,Yakult,23.0,12,Debit Card,1.4,Student,3,Morning,Delivery,y,False
+Customer372,Male,58.0,47.0,140653.0,Rice Bowl,Frappe,22.0,49,Credit Card,3.1,Freelancer,6,Evening,Delivery,y,False
+Customer373,Male,27.0,50.0,50206.0,Salad & Soup,Frappe,23.0,70,Cash,2.2,Employee,1,Morning,Takeaway,y,True
+Customer374,Male,23.0,43.0,107813.0,Rice Bowl,Yakult,1.0,77,Debit Card,2.5,Retired,20,Evening,Takeaway,y,True
+Customer375,Female,51.0,45.0,142653.0,Rice Bowl,Manual Brew,15.0,79,E-Wallet,1.9,Employee,2,Afternoon,Dine-in,y,False
+Customer376,Female,34.0,16.0,104127.0,Rice Bowl,Juices,26.0,32,Credit Card,2.6,Entrepreneur,15,Morning,Dine-in,y,False
+Customer377,Male,52.0,7.0,36191.0,Snacks,Mocktail,5.0,77,Cash,3.4,Employee,18,Night,Takeaway,y,True
+Customer378,Male,51.0,34.0,123269.0,Spaghetti,Smoothies,22.0,95,Debit Card,3.5,Employee,18,Night,Dine-in,y,True
+Customer379,Female,23.0,38.0,147801.0,Snacks,Smoothies,27.0,71,E-Wallet,3.0,Entrepreneur,1,Evening,Takeaway,y,False
+Customer380,Male,53.0,19.0,61561.0,Spaghetti,Yakult,9.0,16,E-Wallet,4.0,Student,0,Morning,Delivery,y,True
+Customer381,Male,18.0,19.0,97907.0,Snacks,Kopi Susu Lokal,9.0,84,E-Wallet,3.9,Employee,12,Night,Dine-in,y,False
+Customer382,Male,30.0,49.0,132288.0,Asian Delight,Barista Drinks,3.0,17,E-Wallet,3.5,Retired,6,Morning,Delivery,y,True
+Customer383,Female,29.0,38.0,39280.0,Western Food,Juices,15.0,42,Cash,1.7,Freelancer,2,Afternoon,Takeaway,y,True
+Customer384,Male,45.0,2.0,110292.0,Western Food,Mocktail,14.0,50,Debit Card,3.3,Employee,5,Morning,Dine-in,y,False
+Customer385,Female,49.0,11.0,31583.0,Spaghetti,Mocktail,30.0,37,Debit Card,4.3,Retired,5,Night,Delivery,y,True
+Customer386,Female,42.0,8.0,131527.0,Rice Bowl,Mocktail,11.0,10,Cash,1.5,Employee,17,Night,Dine-in,y,False
+Customer387,Female,19.0,30.0,25118.0,Spaghetti,Frappe,14.0,28,Cash,1.6,Retired,15,Night,Takeaway,y,True
+Customer388,Male,19.0,30.0,65239.0,Spaghetti,Smoothies,6.0,61,E-Wallet,1.2,Student,14,Night,Delivery,y,False
+Customer389,Male,48.0,37.0,102455.0,Salad & Soup,Classic Coffee,16.0,60,Cash,4.5,Entrepreneur,17,Night,Dine-in,y,False
+Customer390,Female,55.0,38.0,113683.0,Snacks,Frappe,9.0,61,Debit Card,1.2,Employee,3,Evening,Dine-in,y,False
+Customer391,Male,49.0,31.0,104477.0,Asian Delight,Others,10.0,95,Cash,4.4,Entrepreneur,10,Afternoon,Takeaway,y,False
+Customer392,Female,55.0,50.0,92428.0,Pizza,Barista Drinks,29.0,105,E-Wallet,4.7,Student,18,Afternoon,Delivery,y,True
+Customer393,Male,21.0,46.0,107823.0,Spaghetti,Mocktail,16.0,111,Debit Card,4.4,Freelancer,7,Evening,Takeaway,y,False
+Customer394,Male,31.0,3.0,75173.0,Asian Delight,Smoothies,25.0,12,E-Wallet,4.7,Employee,6,Afternoon,Takeaway,y,False
+Customer395,Male,28.0,24.0,86229.0,Pizza,Smoothies,27.0,48,Debit Card,4.0,Employee,14,Evening,Takeaway,y,False
+Customer396,Male,22.0,6.0,76709.0,Asian Delight,Yakult,16.0,63,Cash,3.9,Freelancer,14,Afternoon,Delivery,y,True
+Customer397,Female,50.0,41.0,68649.0,Spaghetti,Yakult,5.0,33,Debit Card,3.4,Retired,2,Morning,Dine-in,y,True
+Customer398,Female,59.0,8.0,25503.0,Spaghetti,Mocktail,12.0,105,Debit Card,4.6,Employee,12,Afternoon,Takeaway,y,False
+Customer399,Female,19.0,16.0,118947.0,Snacks,Mocktail,13.0,84,Credit Card,4.6,Entrepreneur,16,Evening,Delivery,y,True
+Customer400,Male,54.0,18.0,110827.0,Salad & Soup,Others,5.0,74,Credit Card,2.6,Student,3,Evening,Dine-in,y,False
+Customer401,Female,54.0,14.0,23301.0,Salad & Soup,Mocktail,17.0,101,Cash,3.3,Entrepreneur,12,Night,Delivery,y,True
+Customer402,Female,59.0,22.0,24139.0,Spaghetti,Mocktail,3.0,23,Debit Card,2.3,Freelancer,17,Morning,Dine-in,y,False
+Customer403,Male,29.0,47.0,96159.0,Pizza,Kopi Susu Lokal,21.0,116,Debit Card,1.6,Student,3,Night,Delivery,y,False
+Customer404,Male,28.0,26.0,26513.0,Asian Delight,Kopi Susu Lokal,20.0,83,Cash,2.6,Employee,2,Afternoon,Takeaway,y,True
+Customer405,Female,30.0,14.0,36081.0,Pizza,Barista Drinks,26.0,88,Cash,1.8,Employee,14,Evening,Takeaway,y,True
+Customer406,Female,18.0,1.0,48002.0,Rice Bowl,Frappe,12.0,16,E-Wallet,3.8,Student,20,Night,Takeaway,y,False
+Customer407,Female,20.0,32.0,29475.0,Salad & Soup,Smoothies,9.0,67,Debit Card,2.7,Student,7,Evening,Takeaway,y,True
+Customer408,Male,32.0,24.0,38311.0,Salad & Soup,Classic Coffee,25.0,54,E-Wallet,4.1,Employee,20,Evening,Dine-in,y,False
+Customer409,Female,33.0,3.0,56000.0,Burgers & Sandwiches,Kopi Susu Lokal,25.0,35,Cash,2.7,Freelancer,9,Morning,Takeaway,y,True
+Customer410,Male,30.0,26.0,73123.0,Pizza,Mocktail,26.0,69,Cash,1.5,Employee,19,Night,Dine-in,y,False
+Customer411,Female,47.0,29.0,53559.0,Asian Delight,Manual Brew,19.0,34,Debit Card,3.7,Retired,6,Evening,Dine-in,y,True
+Customer412,Female,25.0,40.0,24036.0,Spaghetti,Frappe,6.0,64,Debit Card,4.0,Student,9,Morning,Delivery,y,False
+Customer413,Female,45.0,19.0,69505.0,Snacks,Yakult,25.0,15,Debit Card,2.7,Freelancer,6,Evening,Dine-in,y,False
+Customer414,Female,58.0,16.0,97054.0,Spaghetti,Manual Brew,8.0,54,Debit Card,3.7,Entrepreneur,1,Evening,Dine-in,y,False
+Customer415,Female,57.0,40.0,26143.0,Pizza,Smoothies,5.0,94,E-Wallet,4.5,Freelancer,8,Afternoon,Dine-in,y,False
+Customer416,Female,41.0,7.0,33250.0,Burgers & Sandwiches,Frappe,23.0,77,Credit Card,4.7,Entrepreneur,18,Evening,Takeaway,y,True
+Customer417,Female,47.0,30.0,129238.0,Salad & Soup,Others,1.0,119,Credit Card,3.2,Entrepreneur,12,Night,Delivery,y,True
+Customer418,Female,24.0,15.0,89272.0,Snacks,Barista Drinks,6.0,119,Credit Card,1.8,Student,7,Night,Delivery,y,False
+Customer419,Male,28.0,21.0,94810.0,Snacks,Smoothies,13.0,110,Debit Card,2.2,Freelancer,15,Evening,Takeaway,y,False
+Customer420,Female,41.0,33.0,75867.0,Rice Bowl,Juices,30.0,53,E-Wallet,2.6,Retired,14,Night,Delivery,y,False
+Customer421,Female,21.0,18.0,79109.0,Salad & Soup,Yakult,17.0,99,Debit Card,1.3,Entrepreneur,1,Night,Delivery,y,False
+Customer422,Female,25.0,37.0,65909.0,Snacks,Kopi Susu Lokal,29.0,92,E-Wallet,1.7,Employee,15,Evening,Delivery,y,False
+Customer423,Male,43.0,29.0,34589.0,Salad & Soup,Mocktail,6.0,85,Credit Card,3.7,Employee,17,Afternoon,Takeaway,y,False
+Customer424,Male,47.0,34.0,48178.0,Asian Delight,Frappe,12.0,28,Cash,4.1,Retired,2,Evening,Delivery,y,True
+Customer425,Female,38.0,31.0,101201.0,Rice Bowl,Barista Drinks,8.0,76,Debit Card,3.5,Entrepreneur,7,Afternoon,Takeaway,y,False
+Customer426,Male,57.0,5.0,119200.0,Salad & Soup,Others,21.0,104,Debit Card,4.5,Freelancer,1,Night,Takeaway,y,True
+Customer427,Male,22.0,34.0,40820.0,Salad & Soup,Frappe,11.0,34,Cash,4.3,Retired,2,Afternoon,Takeaway,y,True
+Customer428,Female,48.0,2.0,28309.0,Burgers & Sandwiches,Mocktail,18.0,25,E-Wallet,3.5,Retired,14,Morning,Takeaway,y,False
+Customer429,Male,24.0,44.0,109420.0,Salad & Soup,Barista Drinks,28.0,109,Credit Card,2.8,Student,18,Afternoon,Delivery,y,False
+Customer430,Female,35.0,23.0,50101.0,Spaghetti,Others,1.0,13,Credit Card,4.0,Retired,14,Afternoon,Takeaway,y,False
+Customer431,Female,29.0,35.0,146036.0,Snacks,Others,4.0,75,Credit Card,4.0,Entrepreneur,14,Morning,Dine-in,y,False
+Customer432,Female,60.0,13.0,21847.0,Western Food,Others,10.0,51,Debit Card,2.3,Entrepreneur,16,Afternoon,Delivery,y,True
+Customer433,Female,28.0,36.0,112300.0,Western Food,Mocktail,26.0,107,Credit Card,2.2,Employee,15,Afternoon,Dine-in,y,True
+Customer434,Male,40.0,30.0,28828.0,Spaghetti,Kopi Susu Lokal,4.0,111,Cash,2.1,Employee,4,Evening,Delivery,y,True
+Customer435,Male,27.0,22.0,139806.0,Snacks,Yakult,14.0,102,Credit Card,4.8,Entrepreneur,2,Night,Delivery,y,False
+Customer436,Female,19.0,4.0,116634.0,Rice Bowl,Frappe,29.0,22,Cash,3.5,Freelancer,19,Afternoon,Dine-in,y,False
+Customer437,Female,47.0,4.0,127843.0,Pizza,Others,6.0,71,E-Wallet,3.0,Freelancer,20,Night,Takeaway,y,True
+Customer438,Female,39.0,11.0,142834.0,Snacks,Juices,17.0,75,E-Wallet,1.0,Student,4,Afternoon,Takeaway,y,False
+Customer439,Male,52.0,9.0,146954.0,Rice Bowl,Others,14.0,83,Credit Card,4.3,Entrepreneur,8,Afternoon,Takeaway,y,True
+Customer440,Male,57.0,30.0,110668.0,Snacks,Kopi Susu Lokal,22.0,82,Debit Card,1.1,Retired,18,Evening,Takeaway,y,False
+Customer441,Female,50.0,32.0,102075.0,Pizza,Mocktail,27.0,23,Debit Card,1.6,Entrepreneur,18,Afternoon,Takeaway,y,False
+Customer442,Male,20.0,40.0,68059.0,Western Food,Yakult,10.0,86,Debit Card,4.1,Freelancer,5,Night,Takeaway,y,False
+Customer443,Male,39.0,27.0,107315.0,Rice Bowl,Juices,6.0,62,Cash,3.1,Entrepreneur,19,Afternoon,Delivery,y,False
+Customer444,Female,33.0,17.0,118888.0,Snacks,Barista Drinks,13.0,70,Credit Card,1.9,Employee,14,Afternoon,Dine-in,y,True
+Customer445,Male,30.0,35.0,22067.0,Western Food,Manual Brew,18.0,30,Cash,1.8,Retired,8,Morning,Dine-in,y,False
+Customer446,Male,29.0,18.0,78327.0,Spaghetti,Others,20.0,90,Debit Card,2.8,Employee,2,Evening,Delivery,y,False
+Customer447,Male,48.0,44.0,145148.0,Pizza,Juices,14.0,104,Credit Card,2.0,Employee,14,Night,Dine-in,y,False
+Customer448,Female,43.0,2.0,41219.0,Burgers & Sandwiches,Yakult,26.0,25,Cash,2.9,Entrepreneur,12,Morning,Dine-in,y,True
+Customer449,Female,55.0,11.0,111715.0,Rice Bowl,Others,23.0,79,E-Wallet,3.5,Student,18,Evening,Delivery,y,False
+Customer450,Female,53.0,20.0,62781.0,Rice Bowl,Manual Brew,6.0,27,Credit Card,2.0,Freelancer,15,Afternoon,Dine-in,y,True
+Customer451,Female,25.0,23.0,85847.0,Pizza,Kopi Susu Lokal,4.0,63,E-Wallet,3.6,Retired,6,Morning,Delivery,y,True
+Customer452,Female,52.0,47.0,57335.0,Spaghetti,Classic Coffee,17.0,88,Cash,4.5,Entrepreneur,12,Afternoon,Dine-in,y,False
+Customer453,Female,57.0,27.0,23643.0,Spaghetti,Manual Brew,8.0,64,Cash,4.7,Retired,18,Evening,Delivery,y,False
+Customer454,Female,44.0,24.0,100137.0,Burgers & Sandwiches,Juices,19.0,10,E-Wallet,3.3,Entrepreneur,15,Night,Dine-in,y,True
+Customer455,Male,43.0,16.0,103248.0,Spaghetti,Classic Coffee,12.0,44,E-Wallet,4.9,Retired,4,Night,Dine-in,y,False
+Customer456,Male,45.0,18.0,117803.0,Burgers & Sandwiches,Frappe,20.0,49,Cash,2.9,Freelancer,19,Morning,Delivery,y,False
+Customer457,Female,44.0,28.0,44020.0,Asian Delight,Yakult,20.0,21,Credit Card,3.5,Employee,20,Night,Delivery,y,False
+Customer458,Male,31.0,47.0,142174.0,Salad & Soup,Barista Drinks,13.0,77,Debit Card,3.0,Freelancer,15,Afternoon,Takeaway,y,False
+Customer459,Female,26.0,15.0,116808.0,Asian Delight,Manual Brew,19.0,36,Debit Card,1.9,Retired,7,Morning,Takeaway,y,False
+Customer460,Male,23.0,48.0,80824.0,Western Food,Frappe,6.0,75,Debit Card,1.3,Employee,2,Evening,Takeaway,y,False
+Customer461,Female,21.0,18.0,44799.0,Snacks,Smoothies,29.0,26,Debit Card,4.5,Retired,3,Morning,Delivery,y,True
+Customer462,Female,37.0,48.0,147461.0,Burgers & Sandwiches,Frappe,19.0,95,Credit Card,4.9,Entrepreneur,1,Night,Takeaway,y,False
+Customer463,Male,27.0,1.0,20856.0,Snacks,Others,5.0,25,Cash,1.1,Freelancer,18,Afternoon,Takeaway,y,False
+Customer464,Male,40.0,4.0,131117.0,Salad & Soup,Frappe,30.0,75,Cash,2.0,Entrepreneur,16,Afternoon,Takeaway,y,False
+Customer465,Male,27.0,32.0,89294.0,Pizza,Mocktail,10.0,72,E-Wallet,4.8,Student,13,Night,Dine-in,y,True
+Customer466,Female,46.0,28.0,25705.0,Asian Delight,Classic Coffee,21.0,48,Cash,4.7,Student,19,Night,Dine-in,y,False
+Customer467,Female,59.0,36.0,120460.0,Salad & Soup,Classic Coffee,25.0,120,Credit Card,2.8,Entrepreneur,11,Afternoon,Takeaway,y,False
+Customer468,Female,56.0,43.0,36532.0,Burgers & Sandwiches,Others,25.0,47,Debit Card,2.6,Retired,16,Afternoon,Takeaway,y,False
+Customer469,Male,37.0,35.0,74443.0,Snacks,Mocktail,24.0,57,E-Wallet,4.9,Freelancer,9,Evening,Takeaway,y,True
+Customer470,Female,27.0,44.0,54365.0,Burgers & Sandwiches,Classic Coffee,24.0,86,E-Wallet,4.1,Retired,2,Morning,Dine-in,y,False
+Customer471,Female,50.0,31.0,148796.0,Western Food,Classic Coffee,12.0,63,E-Wallet,4.8,Employee,18,Night,Takeaway,y,True
+Customer472,Male,28.0,30.0,86978.0,Snacks,Juices,27.0,59,Debit Card,2.1,Retired,16,Night,Delivery,y,True
+Customer473,Female,40.0,47.0,49119.0,Pizza,Juices,27.0,65,Credit Card,4.5,Employee,11,Evening,Dine-in,y,True
+Customer474,Male,48.0,34.0,90307.0,Salad & Soup,Barista Drinks,28.0,97,Cash,3.7,Student,4,Afternoon,Takeaway,y,False
+Customer475,Female,49.0,37.0,146368.0,Rice Bowl,Others,12.0,61,E-Wallet,4.0,Employee,8,Morning,Delivery,y,True
+Customer476,Male,59.0,29.0,118080.0,Salad & Soup,Others,13.0,43,Cash,2.3,Employee,15,Night,Takeaway,y,True
+Customer477,Male,39.0,35.0,91518.0,Spaghetti,Mocktail,8.0,69,E-Wallet,4.7,Retired,8,Afternoon,Delivery,y,False
+Customer478,Female,35.0,7.0,39164.0,Spaghetti,Barista Drinks,16.0,48,E-Wallet,3.5,Retired,2,Evening,Dine-in,y,True
+Customer479,Male,46.0,31.0,108900.0,Asian Delight,Frappe,1.0,78,E-Wallet,3.5,Entrepreneur,16,Morning,Dine-in,y,False
+Customer480,Male,46.0,6.0,85200.0,Snacks,Mocktail,15.0,29,Debit Card,3.4,Entrepreneur,8,Afternoon,Delivery,y,True
+Customer481,Male,51.0,11.0,62870.0,Pizza,Yakult,25.0,105,Cash,3.1,Student,11,Night,Takeaway,y,True
+Customer482,Male,46.0,3.0,93448.0,Snacks,Smoothies,1.0,71,Credit Card,2.1,Retired,16,Evening,Takeaway,y,False
+Customer483,Female,59.0,11.0,85899.0,Western Food,Manual Brew,21.0,88,E-Wallet,4.3,Retired,20,Morning,Delivery,y,False
+Customer484,Female,34.0,35.0,106985.0,Pizza,Smoothies,1.0,18,E-Wallet,4.4,Freelancer,4,Evening,Takeaway,y,True
+Customer485,Male,59.0,45.0,55262.0,Pizza,Barista Drinks,14.0,31,Cash,4.3,Retired,14,Evening,Dine-in,y,False
+Customer486,Male,47.0,50.0,136740.0,Pizza,Others,26.0,68,Cash,3.2,Entrepreneur,4,Evening,Takeaway,y,True
+Customer487,Female,58.0,37.0,94418.0,Rice Bowl,Barista Drinks,6.0,26,Cash,2.9,Freelancer,17,Morning,Dine-in,y,False
+Customer488,Male,59.0,14.0,109743.0,Pizza,Juices,6.0,80,E-Wallet,3.3,Retired,7,Night,Dine-in,y,True
+Customer489,Female,41.0,49.0,82410.0,Burgers & Sandwiches,Others,17.0,34,Debit Card,3.6,Freelancer,15,Evening,Delivery,y,False
+Customer490,Female,43.0,3.0,53930.0,Western Food,Juices,10.0,87,Debit Card,1.8,Entrepreneur,8,Night,Delivery,y,False
+Customer491,Female,20.0,5.0,90233.0,Rice Bowl,Smoothies,19.0,73,Cash,1.2,Employee,20,Night,Takeaway,y,False
+Customer492,Male,49.0,39.0,69966.0,Pizza,Kopi Susu Lokal,23.0,22,Credit Card,3.2,Freelancer,17,Afternoon,Dine-in,y,True
+Customer493,Female,43.0,4.0,129904.0,Western Food,Kopi Susu Lokal,29.0,103,Cash,4.6,Freelancer,10,Evening,Dine-in,y,False
+Customer494,Female,56.0,17.0,94046.0,Western Food,Manual Brew,21.0,79,Cash,2.3,Freelancer,7,Morning,Delivery,y,True
+Customer495,Female,60.0,36.0,102492.0,Western Food,Manual Brew,11.0,17,Credit Card,4.8,Student,7,Morning,Delivery,y,True
+Customer496,Female,22.0,7.0,27281.0,Spaghetti,Frappe,6.0,51,Debit Card,4.2,Freelancer,14,Evening,Takeaway,y,True
+Customer497,Male,31.0,13.0,64290.0,Asian Delight,Mocktail,22.0,120,Cash,4.9,Freelancer,20,Morning,Dine-in,y,True
+Customer498,Female,43.0,42.0,113387.0,Spaghetti,Classic Coffee,25.0,10,Debit Card,3.4,Freelancer,3,Morning,Dine-in,y,True
+Customer499,Female,46.0,16.0,47334.0,Burgers & Sandwiches,Frappe,26.0,87,Credit Card,3.1,Employee,2,Evening,Delivery,y,True
+Customer500,Male,60.0,39.0,55174.0,Pizza,Kopi Susu Lokal,19.0,11,Debit Card,1.5,Freelancer,13,Evening,Dine-in,y,False
+Customer501,Male,32.0,14.0,80472.0,Asian Delight,Classic Coffee,30.0,75,E-Wallet,1.4,Entrepreneur,19,Evening,Delivery,y,True
+Customer502,Female,20.0,25.0,22020.0,Western Food,Smoothies,4.0,15,Cash,2.5,Retired,14,Evening,Dine-in,y,True
+Customer503,Female,30.0,24.0,125400.0,Pizza,Mocktail,10.0,63,Debit Card,3.2,Freelancer,11,Night,Dine-in,y,False
+Customer504,Female,33.0,22.0,23655.0,Snacks,Juices,20.0,92,Credit Card,1.5,Student,15,Night,Delivery,y,True
+Customer505,Female,54.0,38.0,59872.0,Pizza,Smoothies,7.0,117,Credit Card,1.9,Student,11,Morning,Dine-in,y,True
+Customer506,Male,32.0,6.0,143163.0,Pizza,Juices,18.0,113,Cash,4.5,Freelancer,7,Evening,Dine-in,y,False
+Customer507,Male,22.0,13.0,32461.0,Pizza,Barista Drinks,3.0,67,E-Wallet,2.4,Employee,12,Morning,Delivery,y,False
+Customer508,Male,26.0,45.0,102626.0,Asian Delight,Smoothies,1.0,53,Cash,1.7,Entrepreneur,7,Afternoon,Delivery,y,True
+Customer509,Female,22.0,44.0,38527.0,Burgers & Sandwiches,Barista Drinks,24.0,41,Cash,4.4,Student,5,Evening,Dine-in,y,False
+Customer510,Male,20.0,42.0,123413.0,Snacks,Mocktail,28.0,10,Cash,3.1,Employee,10,Morning,Dine-in,y,True
+Customer511,Male,41.0,30.0,27947.0,Salad & Soup,Others,12.0,66,E-Wallet,2.0,Entrepreneur,4,Evening,Takeaway,y,True
+Customer512,Female,43.0,27.0,103851.0,Western Food,Frappe,4.0,58,Credit Card,2.2,Employee,13,Evening,Delivery,y,True
+Customer513,Male,22.0,5.0,51210.0,Spaghetti,Yakult,8.0,110,E-Wallet,1.7,Student,3,Evening,Dine-in,y,True
+Customer514,Male,32.0,31.0,22278.0,Burgers & Sandwiches,Barista Drinks,17.0,56,E-Wallet,2.7,Retired,14,Night,Dine-in,y,False
+Customer515,Female,60.0,49.0,105172.0,Spaghetti,Kopi Susu Lokal,28.0,13,Credit Card,3.9,Retired,15,Afternoon,Delivery,y,False
+Customer516,Female,39.0,37.0,48240.0,Rice Bowl,Smoothies,20.0,19,Credit Card,2.9,Freelancer,12,Morning,Dine-in,y,True
+Customer517,Female,21.0,18.0,109344.0,Rice Bowl,Others,5.0,53,Debit Card,5.0,Entrepreneur,13,Night,Delivery,y,True
+Customer518,Male,34.0,30.0,115574.0,Burgers & Sandwiches,Mocktail,3.0,55,Credit Card,2.8,Freelancer,1,Morning,Dine-in,y,False
+Customer519,Female,26.0,18.0,29115.0,Salad & Soup,Yakult,25.0,57,Cash,2.2,Freelancer,17,Evening,Dine-in,y,True
+Customer520,Female,60.0,43.0,64302.0,Asian Delight,Yakult,4.0,113,E-Wallet,2.7,Retired,12,Afternoon,Takeaway,y,False
+Customer521,Male,54.0,37.0,33228.0,Burgers & Sandwiches,Frappe,26.0,81,Credit Card,3.1,Employee,17,Night,Dine-in,y,True
+Customer522,Female,30.0,41.0,43764.0,Burgers & Sandwiches,Manual Brew,22.0,47,E-Wallet,4.9,Employee,7,Morning,Delivery,y,False
+Customer523,Female,29.0,24.0,135456.0,Rice Bowl,Juices,19.0,41,Cash,3.0,Freelancer,0,Afternoon,Takeaway,y,True
+Customer524,Male,31.0,10.0,63828.0,Spaghetti,Smoothies,28.0,11,Credit Card,1.5,Freelancer,4,Afternoon,Delivery,y,True
+Customer525,Female,25.0,19.0,54049.0,Spaghetti,Yakult,1.0,30,E-Wallet,1.7,Retired,11,Afternoon,Dine-in,y,False
+Customer526,Male,42.0,36.0,133503.0,Western Food,Kopi Susu Lokal,16.0,56,Cash,3.8,Entrepreneur,0,Afternoon,Dine-in,y,True
+Customer527,Male,51.0,35.0,49816.0,Salad & Soup,Classic Coffee,16.0,61,Credit Card,2.7,Student,15,Morning,Dine-in,y,True
+Customer528,Male,55.0,50.0,119597.0,Burgers & Sandwiches,Yakult,13.0,77,E-Wallet,3.5,Retired,4,Night,Dine-in,y,True
+Customer529,Female,60.0,11.0,66356.0,Rice Bowl,Smoothies,3.0,99,Cash,2.6,Employee,0,Morning,Takeaway,y,False
+Customer530,Female,40.0,13.0,63876.0,Salad & Soup,Yakult,26.0,56,E-Wallet,4.6,Freelancer,20,Afternoon,Dine-in,y,True
+Customer531,Male,44.0,36.0,61768.0,Pizza,Barista Drinks,26.0,35,E-Wallet,4.5,Freelancer,18,Evening,Takeaway,y,True
+Customer532,Male,45.0,30.0,27089.0,Western Food,Yakult,13.0,53,Debit Card,1.8,Entrepreneur,2,Evening,Takeaway,y,False
+Customer533,Female,35.0,28.0,46219.0,Pizza,Kopi Susu Lokal,29.0,76,Cash,2.1,Entrepreneur,5,Morning,Delivery,y,True
+Customer534,Female,50.0,4.0,40169.0,Burgers & Sandwiches,Classic Coffee,23.0,61,Credit Card,4.8,Retired,11,Night,Takeaway,y,True
+Customer535,Female,34.0,11.0,51365.0,Spaghetti,Others,3.0,117,E-Wallet,1.3,Entrepreneur,11,Afternoon,Dine-in,y,False
+Customer536,Female,55.0,10.0,126528.0,Asian Delight,Barista Drinks,28.0,103,Cash,1.1,Entrepreneur,3,Evening,Dine-in,y,False
+Customer537,Male,52.0,2.0,65254.0,Rice Bowl,Smoothies,9.0,108,Cash,4.6,Student,12,Night,Dine-in,y,True
+Customer538,Female,21.0,46.0,116759.0,Western Food,Juices,8.0,30,Debit Card,4.3,Entrepreneur,10,Night,Delivery,y,True
+Customer539,Male,45.0,18.0,33605.0,Asian Delight,Classic Coffee,26.0,80,Debit Card,1.6,Student,9,Night,Takeaway,y,True
+Customer540,Female,27.0,48.0,139222.0,Snacks,Yakult,14.0,35,E-Wallet,3.3,Employee,11,Morning,Takeaway,y,True
+Customer541,Male,35.0,29.0,113252.0,Burgers & Sandwiches,Others,27.0,33,Credit Card,1.3,Freelancer,3,Afternoon,Delivery,y,False
+Customer542,Male,43.0,9.0,137831.0,Rice Bowl,Mocktail,11.0,52,E-Wallet,2.7,Student,6,Evening,Delivery,y,True
+Customer543,Male,57.0,45.0,133307.0,Snacks,Kopi Susu Lokal,28.0,40,Cash,1.6,Retired,12,Morning,Dine-in,y,False
+Customer544,Male,41.0,39.0,134926.0,Burgers & Sandwiches,Others,11.0,41,Cash,3.5,Entrepreneur,7,Night,Takeaway,y,True
+Customer545,Female,22.0,22.0,121064.0,Asian Delight,Manual Brew,27.0,112,Cash,2.3,Freelancer,0,Evening,Takeaway,y,False
+Customer546,Male,25.0,37.0,110236.0,Asian Delight,Mocktail,21.0,30,Credit Card,3.3,Employee,3,Afternoon,Dine-in,y,False
+Customer547,Female,56.0,19.0,122865.0,Rice Bowl,Frappe,20.0,116,Credit Card,4.6,Student,10,Evening,Takeaway,y,False
+Customer548,Female,45.0,24.0,29741.0,Salad & Soup,Yakult,16.0,23,Credit Card,3.7,Employee,6,Evening,Dine-in,y,True
+Customer549,Male,29.0,46.0,24863.0,Rice Bowl,Kopi Susu Lokal,13.0,13,Debit Card,1.4,Retired,8,Afternoon,Delivery,y,False
+Customer550,Male,60.0,41.0,113392.0,Western Food,Manual Brew,6.0,98,Credit Card,2.8,Employee,15,Morning,Dine-in,y,True
+Customer551,Male,42.0,17.0,64949.0,Snacks,Juices,27.0,22,Debit Card,3.9,Employee,20,Morning,Dine-in,y,False
+Customer552,Female,57.0,50.0,112535.0,Rice Bowl,Barista Drinks,12.0,74,E-Wallet,3.4,Student,14,Night,Takeaway,y,False
+Customer553,Female,59.0,44.0,64822.0,Pizza,Barista Drinks,14.0,95,E-Wallet,3.6,Retired,18,Morning,Takeaway,y,False
+Customer554,Female,52.0,26.0,71929.0,Asian Delight,Kopi Susu Lokal,18.0,64,Debit Card,4.6,Student,9,Evening,Delivery,y,False
+Customer555,Male,51.0,16.0,46336.0,Spaghetti,Smoothies,27.0,66,Debit Card,4.6,Freelancer,16,Night,Dine-in,y,True
+Customer556,Female,46.0,40.0,143987.0,Salad & Soup,Manual Brew,26.0,82,Debit Card,2.1,Freelancer,11,Evening,Dine-in,y,True
+Customer557,Female,44.0,12.0,96161.0,Asian Delight,Manual Brew,18.0,84,Debit Card,4.4,Retired,17,Night,Takeaway,y,False
+Customer558,Male,27.0,34.0,20003.0,Spaghetti,Mocktail,20.0,93,Cash,1.2,Retired,7,Evening,Dine-in,y,False
+Customer559,Male,49.0,18.0,88545.0,Salad & Soup,Juices,21.0,39,E-Wallet,2.9,Student,6,Afternoon,Delivery,y,True
+Customer560,Female,60.0,6.0,95213.0,Burgers & Sandwiches,Smoothies,7.0,65,E-Wallet,1.6,Retired,17,Night,Delivery,y,False
+Customer561,Male,60.0,13.0,95808.0,Asian Delight,Manual Brew,27.0,44,Credit Card,1.2,Employee,9,Morning,Dine-in,y,False
+Customer562,Female,19.0,15.0,78339.0,Salad & Soup,Others,5.0,112,Credit Card,3.4,Student,15,Afternoon,Dine-in,y,False
+Customer563,Male,24.0,30.0,32569.0,Rice Bowl,Kopi Susu Lokal,18.0,49,Cash,4.6,Entrepreneur,4,Afternoon,Delivery,y,False
+Customer564,Male,21.0,22.0,116577.0,Salad & Soup,Frappe,26.0,53,Debit Card,2.7,Entrepreneur,9,Morning,Dine-in,y,True
+Customer565,Male,24.0,40.0,133604.0,Snacks,Classic Coffee,2.0,65,Debit Card,1.1,Entrepreneur,15,Night,Dine-in,y,False
+Customer566,Male,27.0,27.0,53322.0,Western Food,Others,23.0,45,E-Wallet,1.9,Student,12,Morning,Dine-in,y,False
+Customer567,Male,24.0,27.0,36450.0,Asian Delight,Frappe,26.0,66,Credit Card,1.3,Freelancer,5,Evening,Takeaway,y,True
+Customer568,Female,36.0,3.0,22770.0,Burgers & Sandwiches,Smoothies,27.0,85,Debit Card,1.9,Entrepreneur,14,Evening,Dine-in,y,False
+Customer569,Female,53.0,48.0,63859.0,Spaghetti,Yakult,23.0,32,Cash,4.2,Employee,18,Night,Takeaway,y,False
+Customer570,Female,27.0,36.0,47256.0,Salad & Soup,Barista Drinks,15.0,65,E-Wallet,3.7,Entrepreneur,2,Night,Dine-in,y,True
+Customer571,Female,40.0,16.0,57289.0,Spaghetti,Mocktail,17.0,11,Cash,3.6,Employee,16,Morning,Takeaway,y,True
+Customer572,Female,18.0,49.0,67917.0,Salad & Soup,Classic Coffee,16.0,58,Credit Card,1.3,Retired,1,Evening,Dine-in,y,True
+Customer573,Male,46.0,37.0,45484.0,Western Food,Frappe,17.0,89,E-Wallet,4.4,Employee,5,Morning,Delivery,y,True
+Customer574,Male,48.0,16.0,72917.0,Pizza,Yakult,21.0,74,Debit Card,3.8,Freelancer,6,Evening,Takeaway,y,True
+Customer575,Male,40.0,12.0,63317.0,Western Food,Frappe,17.0,63,Debit Card,4.9,Employee,18,Evening,Takeaway,y,False
+Customer576,Female,42.0,11.0,110183.0,Snacks,Classic Coffee,26.0,24,Debit Card,1.4,Employee,4,Night,Delivery,y,True
+Customer577,Female,55.0,18.0,56074.0,Western Food,Mocktail,24.0,85,Debit Card,4.5,Entrepreneur,16,Evening,Takeaway,y,False
+Customer578,Female,38.0,28.0,117472.0,Asian Delight,Smoothies,24.0,83,E-Wallet,3.1,Student,13,Evening,Dine-in,y,False
+Customer579,Female,52.0,33.0,82208.0,Western Food,Barista Drinks,10.0,87,E-Wallet,1.3,Freelancer,6,Night,Takeaway,y,True
+Customer580,Male,20.0,40.0,55381.0,Asian Delight,Juices,21.0,59,Cash,2.8,Student,4,Evening,Delivery,y,False
+Customer581,Male,25.0,33.0,80804.0,Snacks,Classic Coffee,7.0,67,Cash,2.5,Student,4,Afternoon,Dine-in,y,True
+Customer582,Male,37.0,15.0,97158.0,Pizza,Manual Brew,16.0,113,Cash,4.1,Retired,12,Afternoon,Dine-in,y,True
+Customer583,Female,28.0,44.0,52526.0,Rice Bowl,Kopi Susu Lokal,11.0,64,Credit Card,4.4,Freelancer,9,Night,Dine-in,y,True
+Customer584,Male,55.0,28.0,21702.0,Salad & Soup,Barista Drinks,10.0,28,Debit Card,3.5,Employee,8,Night,Takeaway,y,False
+Customer585,Female,57.0,15.0,64260.0,Snacks,Kopi Susu Lokal,20.0,27,Credit Card,3.3,Retired,0,Evening,Delivery,y,False
+Customer586,Male,54.0,15.0,25027.0,Burgers & Sandwiches,Kopi Susu Lokal,18.0,104,E-Wallet,1.4,Entrepreneur,0,Morning,Takeaway,y,False
+Customer587,Female,35.0,24.0,64910.0,Pizza,Manual Brew,3.0,94,E-Wallet,3.4,Student,15,Night,Delivery,y,False
+Customer588,Female,60.0,47.0,79861.0,Asian Delight,Kopi Susu Lokal,13.0,50,Credit Card,2.6,Entrepreneur,4,Night,Delivery,y,False
+Customer589,Female,24.0,41.0,21852.0,Salad & Soup,Mocktail,21.0,75,E-Wallet,2.8,Employee,19,Morning,Delivery,y,True
+Customer590,Female,22.0,47.0,76953.0,Asian Delight,Frappe,2.0,18,Debit Card,2.4,Student,2,Evening,Takeaway,y,False
+Customer591,Female,23.0,24.0,101179.0,Asian Delight,Barista Drinks,7.0,107,Debit Card,3.0,Employee,12,Night,Takeaway,y,True
+Customer592,Female,28.0,25.0,87062.0,Western Food,Kopi Susu Lokal,7.0,79,Credit Card,3.5,Employee,12,Afternoon,Delivery,y,False
+Customer593,Male,23.0,36.0,105318.0,Western Food,Barista Drinks,30.0,57,Debit Card,3.7,Employee,2,Evening,Takeaway,y,True
+Customer594,Female,38.0,24.0,42201.0,Spaghetti,Yakult,10.0,68,Debit Card,3.7,Entrepreneur,16,Morning,Delivery,y,True
+Customer595,Male,25.0,8.0,116304.0,Spaghetti,Mocktail,22.0,107,Cash,2.6,Retired,2,Morning,Delivery,y,False
+Customer596,Male,48.0,22.0,135420.0,Snacks,Classic Coffee,18.0,22,Debit Card,3.9,Freelancer,0,Evening,Takeaway,y,True
+Customer597,Male,28.0,28.0,128998.0,Asian Delight,Frappe,27.0,93,Credit Card,4.5,Employee,18,Night,Delivery,y,False
+Customer598,Female,50.0,12.0,144473.0,Salad & Soup,Classic Coffee,29.0,29,Debit Card,2.2,Freelancer,20,Morning,Takeaway,y,True
+Customer599,Male,42.0,34.0,83593.0,Pizza,Juices,29.0,14,Cash,4.3,Student,20,Night,Dine-in,y,False
+Customer600,Female,19.0,24.0,104403.0,Western Food,Others,22.0,89,Cash,3.6,Student,20,Morning,Takeaway,y,False
+Customer601,Male,23.0,33.0,101085.0,Salad & Soup,Juices,25.0,62,Cash,2.8,Retired,14,Night,Dine-in,y,False
+Customer602,Female,19.0,44.0,90460.0,Burgers & Sandwiches,Barista Drinks,19.0,96,Credit Card,1.6,Employee,17,Evening,Dine-in,y,False
+Customer603,Male,46.0,23.0,61822.0,Burgers & Sandwiches,Barista Drinks,24.0,29,Debit Card,3.5,Entrepreneur,5,Afternoon,Delivery,y,False
+Customer604,Female,31.0,13.0,39152.0,Snacks,Classic Coffee,26.0,30,Cash,1.3,Employee,6,Evening,Takeaway,y,True
+Customer605,Female,40.0,15.0,40826.0,Rice Bowl,Barista Drinks,28.0,16,Credit Card,3.7,Student,6,Afternoon,Takeaway,y,True
+Customer606,Male,32.0,32.0,28862.0,Snacks,Others,24.0,73,Debit Card,5.0,Freelancer,8,Morning,Delivery,y,True
+Customer607,Female,24.0,43.0,34980.0,Burgers & Sandwiches,Frappe,1.0,57,Credit Card,3.2,Entrepreneur,10,Afternoon,Takeaway,y,True
+Customer608,Male,18.0,4.0,42222.0,Burgers & Sandwiches,Barista Drinks,1.0,16,Cash,2.9,Freelancer,18,Morning,Delivery,y,True
+Customer609,Female,37.0,38.0,55179.0,Spaghetti,Others,19.0,69,Credit Card,2.6,Entrepreneur,17,Evening,Takeaway,y,False
+Customer610,Male,23.0,34.0,27160.0,Rice Bowl,Barista Drinks,11.0,112,Credit Card,3.0,Student,8,Morning,Delivery,y,True
+Customer611,Male,52.0,28.0,99073.0,Snacks,Classic Coffee,6.0,72,Debit Card,3.7,Entrepreneur,7,Evening,Delivery,y,False
+Customer612,Male,57.0,48.0,126251.0,Western Food,Classic Coffee,30.0,38,Cash,2.8,Entrepreneur,8,Afternoon,Takeaway,y,False
+Customer613,Female,36.0,50.0,128079.0,Pizza,Classic Coffee,6.0,55,Cash,3.4,Student,5,Afternoon,Dine-in,y,True
+Customer614,Male,51.0,49.0,63118.0,Rice Bowl,Manual Brew,30.0,113,Debit Card,2.3,Freelancer,5,Evening,Takeaway,y,False
+Customer615,Male,18.0,40.0,149082.0,Burgers & Sandwiches,Mocktail,18.0,46,Cash,4.4,Retired,2,Afternoon,Takeaway,y,False
+Customer616,Male,18.0,15.0,49306.0,Spaghetti,Yakult,13.0,60,Credit Card,1.2,Entrepreneur,7,Afternoon,Delivery,y,False
+Customer617,Female,27.0,25.0,39902.0,Spaghetti,Mocktail,18.0,23,E-Wallet,1.9,Entrepreneur,12,Evening,Takeaway,y,False
+Customer618,Male,34.0,14.0,142736.0,Pizza,Juices,29.0,64,E-Wallet,2.7,Retired,3,Afternoon,Delivery,y,False
+Customer619,Female,51.0,9.0,145863.0,Burgers & Sandwiches,Barista Drinks,20.0,14,E-Wallet,1.0,Student,1,Morning,Takeaway,y,False
+Customer620,Male,35.0,49.0,98517.0,Asian Delight,Manual Brew,8.0,77,Cash,2.8,Entrepreneur,5,Night,Dine-in,y,False
+Customer621,Female,55.0,20.0,135786.0,Rice Bowl,Yakult,20.0,34,Debit Card,4.4,Entrepreneur,0,Morning,Delivery,y,True
+Customer622,Female,49.0,14.0,112573.0,Snacks,Kopi Susu Lokal,24.0,93,Credit Card,4.3,Employee,19,Night,Delivery,y,False
+Customer623,Male,27.0,32.0,135608.0,Asian Delight,Others,14.0,39,Cash,4.6,Freelancer,19,Morning,Dine-in,y,True
+Customer624,Male,27.0,14.0,106935.0,Spaghetti,Barista Drinks,26.0,84,E-Wallet,1.8,Student,17,Night,Takeaway,y,False
+Customer625,Male,44.0,47.0,45815.0,Snacks,Smoothies,18.0,79,Credit Card,2.7,Student,8,Evening,Takeaway,y,True
+Customer626,Male,40.0,33.0,95674.0,Snacks,Classic Coffee,23.0,10,Credit Card,1.4,Employee,8,Night,Delivery,y,True
+Customer627,Male,48.0,49.0,64044.0,Salad & Soup,Others,9.0,97,Cash,2.1,Employee,16,Night,Delivery,y,True
+Customer628,Male,40.0,3.0,38540.0,Asian Delight,Smoothies,24.0,70,Credit Card,1.2,Student,16,Morning,Dine-in,y,False
+Customer629,Male,59.0,37.0,30549.0,Western Food,Barista Drinks,1.0,98,E-Wallet,1.1,Employee,11,Morning,Delivery,y,True
+Customer630,Female,20.0,28.0,79416.0,Rice Bowl,Manual Brew,12.0,45,Cash,3.3,Entrepreneur,9,Night,Delivery,y,False
+Customer631,Male,30.0,48.0,95349.0,Spaghetti,Kopi Susu Lokal,3.0,62,Cash,1.2,Retired,10,Afternoon,Delivery,y,False
+Customer632,Male,22.0,12.0,33234.0,Salad & Soup,Smoothies,20.0,55,E-Wallet,4.0,Retired,19,Evening,Delivery,y,True
+Customer633,Female,49.0,39.0,58781.0,Spaghetti,Others,28.0,69,Debit Card,1.8,Entrepreneur,3,Evening,Delivery,y,False
+Customer634,Male,60.0,6.0,49534.0,Spaghetti,Classic Coffee,25.0,75,Credit Card,3.8,Employee,1,Evening,Delivery,y,True
+Customer635,Male,23.0,2.0,82305.0,Asian Delight,Frappe,11.0,32,Credit Card,1.9,Freelancer,6,Afternoon,Dine-in,y,False
+Customer636,Male,20.0,30.0,72852.0,Rice Bowl,Kopi Susu Lokal,9.0,14,E-Wallet,1.1,Retired,17,Evening,Takeaway,y,True
+Customer637,Male,52.0,15.0,48278.0,Spaghetti,Yakult,12.0,31,E-Wallet,4.6,Freelancer,5,Night,Dine-in,y,False
+Customer638,Female,26.0,42.0,113476.0,Pizza,Frappe,26.0,78,Debit Card,1.3,Entrepreneur,18,Night,Dine-in,y,True
+Customer639,Female,18.0,2.0,95183.0,Rice Bowl,Kopi Susu Lokal,29.0,118,Cash,1.2,Student,7,Evening,Delivery,y,True
+Customer640,Male,28.0,26.0,105381.0,Asian Delight,Juices,19.0,112,Credit Card,1.2,Entrepreneur,2,Evening,Takeaway,y,False
+Customer641,Male,36.0,9.0,133459.0,Asian Delight,Frappe,28.0,108,Credit Card,4.3,Entrepreneur,4,Morning,Delivery,y,True
+Customer642,Female,32.0,5.0,28284.0,Rice Bowl,Smoothies,3.0,95,Credit Card,1.7,Retired,1,Night,Takeaway,y,False
+Customer643,Male,24.0,13.0,47113.0,Rice Bowl,Yakult,7.0,14,E-Wallet,4.3,Retired,8,Night,Delivery,y,True
+Customer644,Female,29.0,50.0,122398.0,Spaghetti,Yakult,12.0,120,Debit Card,3.1,Student,10,Afternoon,Takeaway,y,True
+Customer645,Female,58.0,1.0,83440.0,Asian Delight,Others,12.0,105,Cash,4.5,Entrepreneur,6,Evening,Takeaway,y,True
+Customer646,Male,23.0,29.0,93828.0,Snacks,Barista Drinks,19.0,50,Credit Card,1.8,Retired,14,Morning,Takeaway,y,False
+Customer647,Female,39.0,3.0,108750.0,Asian Delight,Mocktail,20.0,111,Credit Card,4.8,Retired,19,Night,Dine-in,y,False
+Customer648,Male,40.0,43.0,47002.0,Snacks,Yakult,15.0,21,E-Wallet,3.2,Employee,3,Afternoon,Delivery,y,False
+Customer649,Male,49.0,21.0,105430.0,Spaghetti,Frappe,29.0,31,E-Wallet,4.7,Freelancer,15,Evening,Takeaway,y,False
+Customer650,Female,51.0,37.0,62021.0,Burgers & Sandwiches,Mocktail,4.0,59,Cash,3.6,Retired,20,Evening,Dine-in,y,False
+Customer651,Male,56.0,20.0,134966.0,Western Food,Kopi Susu Lokal,7.0,100,E-Wallet,1.8,Freelancer,0,Night,Delivery,y,False
+Customer652,Female,51.0,50.0,33478.0,Rice Bowl,Juices,25.0,74,E-Wallet,4.9,Employee,13,Afternoon,Delivery,y,False
+Customer653,Female,19.0,27.0,25246.0,Western Food,Classic Coffee,6.0,56,Cash,3.6,Entrepreneur,1,Afternoon,Takeaway,y,False
+Customer654,Female,34.0,2.0,145413.0,Snacks,Juices,28.0,59,Debit Card,4.0,Entrepreneur,11,Night,Takeaway,y,False
+Customer655,Female,45.0,8.0,60165.0,Pizza,Frappe,18.0,54,Credit Card,2.3,Employee,18,Morning,Dine-in,y,False
+Customer656,Male,48.0,43.0,117518.0,Western Food,Kopi Susu Lokal,13.0,110,Cash,4.6,Student,0,Afternoon,Takeaway,y,False
+Customer657,Female,35.0,4.0,117634.0,Spaghetti,Barista Drinks,1.0,25,Cash,3.7,Student,3,Night,Delivery,y,False
+Customer658,Male,26.0,37.0,105594.0,Pizza,Classic Coffee,25.0,29,Credit Card,4.8,Retired,20,Evening,Dine-in,y,False
+Customer659,Male,21.0,48.0,76143.0,Snacks,Manual Brew,26.0,65,Debit Card,2.8,Entrepreneur,2,Evening,Delivery,y,True
+Customer660,Male,24.0,35.0,20650.0,Western Food,Frappe,10.0,103,Debit Card,3.0,Retired,5,Evening,Takeaway,y,True
+Customer661,Female,54.0,7.0,21246.0,Spaghetti,Mocktail,14.0,76,Debit Card,3.2,Freelancer,18,Morning,Dine-in,y,False
+Customer662,Female,56.0,6.0,97928.0,Spaghetti,Manual Brew,21.0,16,Cash,2.1,Employee,5,Night,Dine-in,y,True
+Customer663,Female,28.0,32.0,135037.0,Snacks,Juices,4.0,47,Credit Card,1.3,Retired,5,Afternoon,Takeaway,y,False
+Customer664,Female,36.0,7.0,139042.0,Western Food,Mocktail,19.0,18,Cash,1.5,Freelancer,2,Evening,Dine-in,y,True
+Customer665,Male,50.0,9.0,46762.0,Spaghetti,Juices,19.0,104,Credit Card,1.1,Employee,7,Morning,Dine-in,y,True
+Customer666,Female,26.0,41.0,125075.0,Western Food,Classic Coffee,1.0,105,Cash,1.2,Student,8,Afternoon,Takeaway,y,False
+Customer667,Female,22.0,18.0,138238.0,Asian Delight,Others,12.0,96,Debit Card,4.4,Retired,2,Evening,Dine-in,y,True
+Customer668,Female,27.0,48.0,121845.0,Salad & Soup,Smoothies,26.0,77,Cash,3.8,Freelancer,16,Morning,Takeaway,y,True
+Customer669,Male,19.0,46.0,147077.0,Snacks,Yakult,1.0,32,Cash,2.0,Retired,16,Night,Delivery,y,True
+Customer670,Male,60.0,22.0,20421.0,Spaghetti,Barista Drinks,18.0,84,Cash,4.2,Entrepreneur,7,Morning,Takeaway,y,True
+Customer671,Female,38.0,16.0,51557.0,Snacks,Kopi Susu Lokal,27.0,30,E-Wallet,4.4,Student,20,Afternoon,Delivery,y,True
+Customer672,Male,20.0,30.0,140669.0,Snacks,Manual Brew,7.0,86,E-Wallet,1.9,Entrepreneur,4,Morning,Takeaway,y,False
+Customer673,Male,46.0,41.0,37096.0,Snacks,Barista Drinks,12.0,56,Credit Card,2.6,Retired,5,Night,Dine-in,y,False
+Customer674,Female,47.0,19.0,128570.0,Salad & Soup,Barista Drinks,18.0,86,Debit Card,3.8,Student,9,Afternoon,Delivery,y,False
+Customer675,Female,38.0,18.0,67295.0,Salad & Soup,Frappe,13.0,117,Credit Card,2.8,Retired,11,Evening,Delivery,y,True
+Customer676,Male,42.0,29.0,90575.0,Salad & Soup,Yakult,1.0,53,Cash,4.7,Freelancer,12,Night,Dine-in,y,False
+Customer677,Female,59.0,33.0,109711.0,Snacks,Kopi Susu Lokal,3.0,81,E-Wallet,3.4,Student,15,Afternoon,Takeaway,y,True
+Customer678,Female,18.0,13.0,53247.0,Burgers & Sandwiches,Mocktail,27.0,92,Cash,3.9,Student,17,Morning,Delivery,y,False
+Customer679,Female,25.0,2.0,53564.0,Spaghetti,Barista Drinks,11.0,60,Debit Card,1.5,Employee,12,Afternoon,Delivery,y,True
+Customer680,Female,34.0,12.0,23228.0,Asian Delight,Yakult,10.0,90,Debit Card,4.2,Entrepreneur,6,Night,Takeaway,y,False
+Customer681,Female,44.0,6.0,70617.0,Snacks,Classic Coffee,1.0,55,Debit Card,2.0,Student,17,Night,Delivery,y,True
+Customer682,Male,20.0,25.0,83658.0,Rice Bowl,Classic Coffee,9.0,63,E-Wallet,1.8,Freelancer,16,Night,Delivery,y,False
+Customer683,Male,24.0,27.0,55081.0,Spaghetti,Mocktail,18.0,58,Debit Card,5.0,Retired,1,Afternoon,Dine-in,y,True
+Customer684,Female,55.0,49.0,135351.0,Rice Bowl,Frappe,18.0,68,Cash,4.0,Entrepreneur,13,Evening,Takeaway,y,False
+Customer685,Male,27.0,35.0,102406.0,Burgers & Sandwiches,Kopi Susu Lokal,17.0,94,Debit Card,1.1,Employee,7,Afternoon,Dine-in,y,True
+Customer686,Male,35.0,39.0,80847.0,Pizza,Yakult,19.0,26,Credit Card,3.7,Entrepreneur,0,Afternoon,Dine-in,y,False
+Customer687,Male,27.0,7.0,128251.0,Spaghetti,Classic Coffee,18.0,65,Cash,4.6,Entrepreneur,14,Night,Dine-in,y,True
+Customer688,Male,38.0,11.0,130799.0,Rice Bowl,Juices,3.0,24,E-Wallet,1.9,Entrepreneur,18,Morning,Takeaway,y,False
+Customer689,Male,45.0,46.0,30368.0,Pizza,Smoothies,20.0,35,E-Wallet,3.7,Entrepreneur,5,Morning,Dine-in,y,False
+Customer690,Male,50.0,20.0,22668.0,Spaghetti,Juices,6.0,103,Credit Card,3.6,Employee,8,Night,Takeaway,y,False
+Customer691,Female,45.0,32.0,67400.0,Spaghetti,Yakult,21.0,88,Debit Card,4.0,Retired,16,Morning,Delivery,y,False
+Customer692,Female,50.0,6.0,118665.0,Rice Bowl,Barista Drinks,15.0,83,Debit Card,4.5,Retired,8,Morning,Delivery,y,True
+Customer693,Female,58.0,10.0,72613.0,Pizza,Kopi Susu Lokal,25.0,105,E-Wallet,3.4,Entrepreneur,10,Evening,Takeaway,y,False
+Customer694,Male,39.0,39.0,76852.0,Western Food,Kopi Susu Lokal,12.0,103,E-Wallet,4.8,Freelancer,6,Afternoon,Delivery,y,True
+Customer695,Male,46.0,37.0,122502.0,Rice Bowl,Kopi Susu Lokal,2.0,81,Cash,2.0,Student,7,Afternoon,Delivery,y,True
+Customer696,Female,22.0,42.0,131524.0,Spaghetti,Kopi Susu Lokal,9.0,51,Cash,3.6,Employee,5,Night,Delivery,y,False
+Customer697,Female,40.0,49.0,26162.0,Rice Bowl,Juices,20.0,35,Credit Card,3.8,Employee,20,Afternoon,Delivery,y,False
+Customer698,Female,35.0,4.0,120636.0,Snacks,Yakult,9.0,113,Debit Card,1.2,Entrepreneur,15,Evening,Takeaway,y,True
+Customer699,Male,29.0,40.0,60867.0,Salad & Soup,Mocktail,20.0,74,E-Wallet,4.6,Employee,20,Afternoon,Delivery,y,True
+Customer700,Male,43.0,44.0,104574.0,Spaghetti,Mocktail,19.0,110,Credit Card,3.4,Retired,13,Evening,Takeaway,y,False
+Customer701,Male,57.0,13.0,22417.0,Asian Delight,Frappe,5.0,62,E-Wallet,1.9,Freelancer,1,Evening,Dine-in,y,True
+Customer702,Female,55.0,13.0,73577.0,Rice Bowl,Mocktail,11.0,101,E-Wallet,4.3,Freelancer,10,Night,Delivery,y,True
+Customer703,Female,34.0,20.0,59012.0,Spaghetti,Smoothies,13.0,45,Debit Card,3.6,Employee,13,Morning,Delivery,y,True
+Customer704,Male,48.0,8.0,130076.0,Asian Delight,Mocktail,4.0,41,E-Wallet,2.0,Student,4,Afternoon,Delivery,y,False
+Customer705,Female,24.0,20.0,140216.0,Salad & Soup,Juices,28.0,76,Debit Card,1.6,Freelancer,13,Afternoon,Takeaway,y,True
+Customer706,Female,53.0,3.0,114564.0,Western Food,Others,28.0,89,Credit Card,5.0,Entrepreneur,7,Evening,Delivery,y,False
+Customer707,Male,34.0,5.0,41265.0,Western Food,Manual Brew,29.0,10,Cash,4.6,Student,20,Night,Takeaway,y,False
+Customer708,Female,30.0,47.0,108766.0,Salad & Soup,Barista Drinks,1.0,15,Credit Card,2.5,Student,17,Morning,Dine-in,y,True
+Customer709,Male,59.0,33.0,39920.0,Western Food,Classic Coffee,26.0,17,Credit Card,2.7,Employee,11,Afternoon,Dine-in,y,False
+Customer710,Female,28.0,17.0,123730.0,Asian Delight,Barista Drinks,4.0,64,E-Wallet,1.1,Employee,0,Evening,Delivery,y,False
+Customer711,Male,42.0,42.0,133873.0,Burgers & Sandwiches,Mocktail,9.0,74,Debit Card,1.6,Entrepreneur,16,Night,Takeaway,y,True
+Customer712,Female,19.0,18.0,115758.0,Salad & Soup,Yakult,20.0,40,Debit Card,1.4,Student,11,Night,Dine-in,y,False
+Customer713,Female,18.0,20.0,147496.0,Pizza,Smoothies,28.0,11,Credit Card,1.1,Student,4,Afternoon,Delivery,y,False
+Customer714,Female,21.0,31.0,43596.0,Burgers & Sandwiches,Others,2.0,44,Debit Card,4.7,Employee,15,Afternoon,Delivery,y,False
+Customer715,Male,40.0,16.0,52646.0,Snacks,Kopi Susu Lokal,28.0,116,Credit Card,2.3,Freelancer,16,Night,Dine-in,y,False
+Customer716,Male,22.0,28.0,135694.0,Burgers & Sandwiches,Frappe,23.0,78,Cash,4.8,Entrepreneur,4,Morning,Delivery,y,False
+Customer717,Male,22.0,10.0,48771.0,Pizza,Manual Brew,24.0,79,Debit Card,2.6,Entrepreneur,18,Evening,Takeaway,y,True
+Customer718,Male,33.0,41.0,115657.0,Rice Bowl,Mocktail,29.0,119,Cash,4.2,Employee,7,Night,Delivery,y,True
+Customer719,Male,54.0,27.0,61700.0,Salad & Soup,Classic Coffee,18.0,81,Credit Card,2.7,Student,17,Evening,Delivery,y,False
+Customer720,Male,40.0,25.0,98682.0,Asian Delight,Smoothies,14.0,112,Debit Card,3.2,Freelancer,4,Evening,Delivery,y,False
+Customer721,Male,20.0,16.0,117048.0,Salad & Soup,Frappe,19.0,119,Cash,1.8,Retired,16,Night,Takeaway,y,False
+Customer722,Female,45.0,29.0,55956.0,Burgers & Sandwiches,Kopi Susu Lokal,13.0,86,Cash,1.5,Entrepreneur,0,Evening,Takeaway,y,False
+Customer723,Female,34.0,45.0,143765.0,Spaghetti,Juices,30.0,45,Debit Card,3.3,Retired,2,Evening,Dine-in,y,False
+Customer724,Male,44.0,48.0,40792.0,Spaghetti,Frappe,15.0,119,Cash,2.1,Student,13,Night,Takeaway,y,True
+Customer725,Male,31.0,1.0,21116.0,Snacks,Manual Brew,2.0,67,Cash,3.9,Entrepreneur,4,Afternoon,Delivery,y,True
+Customer726,Female,33.0,42.0,65503.0,Rice Bowl,Mocktail,1.0,103,Credit Card,2.5,Employee,7,Night,Takeaway,y,False
+Customer727,Female,38.0,28.0,139423.0,Spaghetti,Others,21.0,11,Cash,2.4,Retired,15,Morning,Delivery,y,False
+Customer728,Male,32.0,4.0,39372.0,Rice Bowl,Classic Coffee,7.0,66,Credit Card,2.0,Freelancer,2,Night,Delivery,y,True
+Customer729,Female,46.0,48.0,33840.0,Salad & Soup,Manual Brew,18.0,58,Debit Card,4.7,Entrepreneur,8,Evening,Dine-in,y,True
+Customer730,Female,58.0,42.0,46892.0,Spaghetti,Juices,11.0,115,Credit Card,4.9,Freelancer,10,Night,Dine-in,y,False
+Customer731,Male,25.0,14.0,143904.0,Western Food,Mocktail,14.0,111,E-Wallet,4.2,Retired,4,Morning,Delivery,y,False
+Customer732,Female,34.0,22.0,34575.0,Spaghetti,Juices,11.0,60,Cash,4.5,Student,12,Evening,Delivery,y,True
+Customer733,Male,29.0,16.0,116544.0,Burgers & Sandwiches,Others,10.0,79,E-Wallet,4.2,Freelancer,19,Night,Takeaway,y,False
+Customer734,Male,40.0,15.0,64781.0,Pizza,Yakult,22.0,109,Debit Card,3.3,Entrepreneur,20,Afternoon,Dine-in,y,True
+Customer735,Female,50.0,2.0,136561.0,Salad & Soup,Juices,8.0,74,Debit Card,2.3,Entrepreneur,4,Evening,Delivery,y,False
+Customer736,Female,60.0,40.0,125385.0,Burgers & Sandwiches,Yakult,24.0,59,Cash,3.8,Freelancer,2,Morning,Delivery,y,True
+Customer737,Female,20.0,30.0,137948.0,Western Food,Frappe,6.0,120,E-Wallet,2.8,Freelancer,6,Morning,Takeaway,y,True
+Customer738,Male,46.0,15.0,47759.0,Salad & Soup,Frappe,12.0,88,Credit Card,2.3,Freelancer,19,Afternoon,Takeaway,y,False
+Customer739,Male,57.0,44.0,131095.0,Snacks,Classic Coffee,7.0,119,Credit Card,5.0,Retired,1,Afternoon,Dine-in,y,False
+Customer740,Female,26.0,30.0,147692.0,Spaghetti,Classic Coffee,8.0,107,Debit Card,2.2,Entrepreneur,12,Morning,Dine-in,y,False
+Customer741,Male,59.0,11.0,90953.0,Snacks,Frappe,6.0,89,Cash,2.1,Retired,11,Night,Takeaway,y,False
+Customer742,Female,52.0,10.0,135624.0,Rice Bowl,Juices,8.0,117,Cash,3.7,Employee,14,Afternoon,Takeaway,y,True
+Customer743,Female,25.0,38.0,99026.0,Western Food,Juices,3.0,78,E-Wallet,4.3,Employee,0,Evening,Takeaway,y,False
+Customer744,Male,28.0,31.0,100175.0,Western Food,Others,1.0,20,Cash,2.6,Student,16,Morning,Takeaway,y,False
+Customer745,Male,46.0,17.0,112834.0,Salad & Soup,Juices,19.0,62,Debit Card,3.5,Retired,1,Night,Delivery,y,False
+Customer746,Female,58.0,40.0,53013.0,Western Food,Classic Coffee,4.0,70,E-Wallet,1.2,Retired,2,Evening,Takeaway,y,False
+Customer747,Male,57.0,35.0,124572.0,Asian Delight,Mocktail,25.0,65,Credit Card,4.2,Student,17,Evening,Delivery,y,False
+Customer748,Male,21.0,34.0,97033.0,Burgers & Sandwiches,Smoothies,2.0,111,E-Wallet,4.9,Entrepreneur,15,Night,Delivery,y,False
+Customer749,Female,34.0,45.0,78690.0,Asian Delight,Barista Drinks,5.0,10,Cash,4.5,Freelancer,20,Evening,Dine-in,y,False
+Customer750,Female,51.0,12.0,115318.0,Snacks,Classic Coffee,26.0,55,Cash,1.7,Student,2,Night,Dine-in,y,True
+Customer751,Female,47.0,14.0,64042.0,Salad & Soup,Frappe,7.0,69,E-Wallet,5.0,Employee,18,Night,Delivery,y,True
+Customer752,Male,34.0,50.0,143291.0,Western Food,Juices,12.0,58,Cash,4.8,Entrepreneur,5,Night,Delivery,y,False
+Customer753,Female,26.0,2.0,34755.0,Pizza,Kopi Susu Lokal,9.0,61,E-Wallet,3.7,Employee,5,Evening,Delivery,y,True
+Customer754,Male,55.0,7.0,127220.0,Snacks,Yakult,13.0,89,Debit Card,4.2,Entrepreneur,13,Evening,Takeaway,y,False
+Customer755,Male,47.0,16.0,63205.0,Snacks,Manual Brew,17.0,28,Cash,4.2,Employee,5,Afternoon,Dine-in,y,False
+Customer756,Female,43.0,39.0,23229.0,Snacks,Barista Drinks,15.0,53,E-Wallet,1.2,Entrepreneur,5,Afternoon,Delivery,y,True
+Customer757,Male,59.0,29.0,132911.0,Western Food,Barista Drinks,21.0,46,Cash,1.3,Employee,20,Afternoon,Takeaway,y,True
+Customer758,Male,55.0,27.0,130379.0,Pizza,Yakult,14.0,103,Cash,2.4,Entrepreneur,2,Afternoon,Dine-in,y,False
+Customer759,Female,57.0,35.0,147747.0,Burgers & Sandwiches,Frappe,23.0,28,Debit Card,4.0,Student,14,Morning,Dine-in,y,True
+Customer760,Male,60.0,12.0,33365.0,Salad & Soup,Others,28.0,120,E-Wallet,1.4,Employee,17,Morning,Dine-in,y,True
+Customer761,Female,38.0,13.0,131478.0,Western Food,Frappe,6.0,40,Cash,2.6,Employee,18,Night,Takeaway,y,True
+Customer762,Female,22.0,13.0,121826.0,Asian Delight,Frappe,11.0,55,E-Wallet,4.5,Employee,15,Afternoon,Takeaway,y,False
+Customer763,Male,48.0,3.0,119294.0,Rice Bowl,Classic Coffee,19.0,85,Debit Card,2.1,Freelancer,3,Afternoon,Delivery,y,True
+Customer764,Male,39.0,10.0,140023.0,Salad & Soup,Frappe,22.0,112,Debit Card,1.5,Retired,18,Night,Takeaway,y,True
+Customer765,Female,34.0,38.0,53535.0,Pizza,Yakult,18.0,29,E-Wallet,2.2,Student,10,Afternoon,Dine-in,y,False
+Customer766,Male,56.0,35.0,89887.0,Rice Bowl,Frappe,19.0,103,Debit Card,4.4,Student,13,Afternoon,Dine-in,y,False
+Customer767,Male,35.0,36.0,107787.0,Burgers & Sandwiches,Classic Coffee,12.0,18,Cash,4.7,Entrepreneur,1,Morning,Takeaway,y,True
+Customer768,Male,53.0,34.0,74590.0,Snacks,Frappe,23.0,48,E-Wallet,3.0,Entrepreneur,15,Morning,Takeaway,y,True
+Customer769,Male,22.0,43.0,123256.0,Asian Delight,Mocktail,17.0,56,Cash,2.2,Entrepreneur,20,Evening,Takeaway,y,True
+Customer770,Female,49.0,5.0,94701.0,Rice Bowl,Mocktail,13.0,63,Debit Card,1.5,Entrepreneur,19,Night,Dine-in,y,False
+Customer771,Male,36.0,46.0,109089.0,Spaghetti,Others,7.0,107,Debit Card,3.7,Student,14,Afternoon,Takeaway,y,False
+Customer772,Male,33.0,20.0,117540.0,Spaghetti,Yakult,18.0,74,Cash,1.4,Freelancer,10,Morning,Dine-in,y,True
+Customer773,Female,48.0,29.0,58061.0,Snacks,Yakult,29.0,53,Debit Card,4.2,Employee,1,Afternoon,Delivery,y,True
+Customer774,Male,25.0,45.0,131376.0,Asian Delight,Frappe,6.0,21,E-Wallet,3.6,Student,15,Afternoon,Takeaway,y,False
+Customer775,Female,50.0,45.0,120054.0,Burgers & Sandwiches,Classic Coffee,26.0,54,Credit Card,1.7,Student,12,Morning,Delivery,y,True
+Customer776,Female,42.0,31.0,61639.0,Burgers & Sandwiches,Yakult,9.0,115,Cash,3.4,Freelancer,7,Night,Delivery,y,False
+Customer777,Female,22.0,15.0,65261.0,Rice Bowl,Juices,7.0,102,Debit Card,3.7,Student,12,Evening,Dine-in,y,True
+Customer778,Female,46.0,26.0,47737.0,Spaghetti,Yakult,3.0,79,Cash,2.4,Retired,19,Morning,Delivery,y,False
+Customer779,Male,42.0,14.0,127375.0,Asian Delight,Kopi Susu Lokal,13.0,76,Debit Card,2.0,Employee,15,Afternoon,Takeaway,y,False
+Customer780,Female,18.0,25.0,89691.0,Snacks,Kopi Susu Lokal,4.0,20,Credit Card,3.4,Entrepreneur,0,Morning,Dine-in,y,True
+Customer781,Male,42.0,22.0,38312.0,Western Food,Classic Coffee,25.0,73,E-Wallet,3.7,Student,4,Evening,Dine-in,y,True
+Customer782,Female,49.0,7.0,45357.0,Burgers & Sandwiches,Classic Coffee,28.0,58,Cash,4.1,Freelancer,1,Morning,Delivery,y,False
+Customer783,Female,45.0,32.0,109264.0,Spaghetti,Barista Drinks,15.0,112,E-Wallet,2.2,Employee,13,Afternoon,Dine-in,y,True
+Customer784,Female,25.0,26.0,51377.0,Salad & Soup,Frappe,29.0,18,Debit Card,2.1,Student,12,Morning,Delivery,y,True
+Customer785,Female,40.0,8.0,62709.0,Rice Bowl,Kopi Susu Lokal,26.0,50,Debit Card,2.2,Entrepreneur,3,Morning,Dine-in,y,False
+Customer786,Female,41.0,12.0,143935.0,Asian Delight,Smoothies,2.0,18,E-Wallet,3.5,Employee,1,Evening,Takeaway,y,True
+Customer787,Male,23.0,43.0,124550.0,Western Food,Classic Coffee,2.0,42,Cash,1.4,Student,5,Evening,Dine-in,y,True
+Customer788,Female,58.0,33.0,66525.0,Pizza,Yakult,6.0,74,Cash,2.9,Entrepreneur,18,Evening,Takeaway,y,False
+Customer789,Male,29.0,25.0,125084.0,Rice Bowl,Others,27.0,17,Debit Card,2.1,Freelancer,20,Evening,Dine-in,y,True
+Customer790,Female,47.0,3.0,100500.0,Salad & Soup,Juices,19.0,47,E-Wallet,1.7,Student,9,Night,Takeaway,y,True
+Customer791,Female,58.0,36.0,55021.0,Asian Delight,Yakult,5.0,96,E-Wallet,2.7,Freelancer,17,Morning,Dine-in,y,True
+Customer792,Female,52.0,2.0,23969.0,Snacks,Smoothies,13.0,37,Credit Card,1.6,Entrepreneur,0,Night,Takeaway,y,True
+Customer793,Male,59.0,17.0,25277.0,Spaghetti,Yakult,10.0,73,Debit Card,3.0,Retired,9,Afternoon,Takeaway,y,False
+Customer794,Male,50.0,34.0,144249.0,Asian Delight,Yakult,20.0,74,Debit Card,3.3,Retired,13,Morning,Takeaway,y,False
+Customer795,Male,42.0,41.0,65817.0,Snacks,Classic Coffee,30.0,18,Debit Card,4.0,Employee,17,Evening,Takeaway,y,True
+Customer796,Female,26.0,6.0,138491.0,Burgers & Sandwiches,Juices,27.0,83,E-Wallet,1.3,Freelancer,15,Morning,Dine-in,y,False
+Customer797,Female,52.0,47.0,128375.0,Pizza,Smoothies,6.0,71,E-Wallet,4.6,Freelancer,18,Evening,Delivery,y,True
+Customer798,Male,47.0,15.0,95922.0,Spaghetti,Frappe,27.0,24,Credit Card,1.4,Entrepreneur,19,Evening,Takeaway,y,True
+Customer799,Male,33.0,3.0,27818.0,Asian Delight,Smoothies,2.0,53,Debit Card,4.4,Freelancer,3,Morning,Takeaway,y,False
+Customer800,Female,35.0,48.0,47641.0,Spaghetti,Barista Drinks,10.0,55,Credit Card,4.9,Freelancer,3,Morning,Delivery,y,True
+Customer801,Female,21.0,48.0,92031.0,Rice Bowl,Others,21.0,63,Credit Card,2.0,Employee,13,Afternoon,Takeaway,y,True
+Customer802,Male,54.0,4.0,52634.0,Salad & Soup,Yakult,15.0,39,Cash,3.3,Entrepreneur,6,Night,Delivery,y,True
+Customer803,Male,32.0,8.0,140653.0,Burgers & Sandwiches,Barista Drinks,20.0,92,Cash,3.5,Student,2,Evening,Takeaway,y,True
+Customer804,Female,30.0,37.0,103225.0,Spaghetti,Manual Brew,16.0,93,E-Wallet,2.1,Employee,12,Night,Delivery,y,False
+Customer805,Female,56.0,13.0,38042.0,Spaghetti,Barista Drinks,23.0,43,Credit Card,4.4,Freelancer,16,Afternoon,Dine-in,y,False
+Customer806,Female,37.0,8.0,21938.0,Burgers & Sandwiches,Mocktail,24.0,90,E-Wallet,1.4,Employee,20,Evening,Dine-in,y,True
+Customer807,Female,21.0,16.0,66826.0,Asian Delight,Classic Coffee,1.0,119,Credit Card,3.6,Student,20,Afternoon,Takeaway,y,True
+Customer808,Female,33.0,10.0,48285.0,Snacks,Manual Brew,7.0,76,Debit Card,2.2,Entrepreneur,1,Night,Takeaway,y,False
+Customer809,Female,26.0,22.0,23947.0,Rice Bowl,Kopi Susu Lokal,21.0,53,E-Wallet,4.9,Retired,11,Night,Delivery,y,True
+Customer810,Male,41.0,1.0,109349.0,Pizza,Juices,14.0,74,E-Wallet,3.8,Retired,2,Morning,Takeaway,y,False
+Customer811,Male,19.0,37.0,32144.0,Asian Delight,Mocktail,14.0,103,Debit Card,2.8,Employee,7,Night,Delivery,y,False
+Customer812,Male,29.0,6.0,87817.0,Spaghetti,Yakult,12.0,13,E-Wallet,2.7,Entrepreneur,15,Afternoon,Takeaway,y,False
+Customer813,Female,53.0,14.0,120149.0,Snacks,Others,21.0,27,Cash,4.4,Retired,14,Afternoon,Takeaway,y,True
+Customer814,Female,51.0,19.0,91474.0,Rice Bowl,Others,25.0,38,Credit Card,3.0,Employee,0,Evening,Takeaway,y,True
+Customer815,Male,45.0,10.0,99012.0,Western Food,Kopi Susu Lokal,24.0,91,Credit Card,2.4,Employee,1,Evening,Takeaway,y,True
+Customer816,Female,48.0,4.0,67307.0,Rice Bowl,Mocktail,26.0,47,Debit Card,2.0,Retired,13,Morning,Delivery,y,False
+Customer817,Male,30.0,33.0,82417.0,Salad & Soup,Yakult,25.0,68,Credit Card,3.0,Entrepreneur,2,Evening,Delivery,y,False
+Customer818,Female,51.0,48.0,67254.0,Spaghetti,Yakult,12.0,89,Debit Card,3.8,Employee,4,Night,Takeaway,y,True
+Customer819,Female,30.0,39.0,106172.0,Pizza,Manual Brew,20.0,111,E-Wallet,3.3,Retired,17,Morning,Delivery,y,False
+Customer820,Male,30.0,13.0,98131.0,Snacks,Classic Coffee,21.0,110,Debit Card,2.2,Entrepreneur,5,Morning,Delivery,y,False
+Customer821,Female,43.0,37.0,82073.0,Pizza,Yakult,26.0,98,Debit Card,2.1,Freelancer,16,Night,Dine-in,y,True
+Customer822,Male,59.0,26.0,101769.0,Snacks,Frappe,20.0,41,Cash,4.1,Student,18,Evening,Dine-in,y,False
+Customer823,Male,57.0,33.0,46075.0,Snacks,Barista Drinks,16.0,91,Cash,2.1,Retired,4,Evening,Delivery,y,False
+Customer824,Male,42.0,12.0,110595.0,Burgers & Sandwiches,Classic Coffee,12.0,108,Cash,5.0,Entrepreneur,10,Evening,Takeaway,y,True
+Customer825,Male,22.0,46.0,33060.0,Spaghetti,Mocktail,12.0,44,Debit Card,2.3,Entrepreneur,19,Evening,Delivery,y,True
+Customer826,Male,51.0,4.0,100919.0,Spaghetti,Classic Coffee,4.0,70,Credit Card,2.3,Freelancer,6,Evening,Delivery,y,False
+Customer827,Female,34.0,34.0,70457.0,Salad & Soup,Mocktail,12.0,69,Debit Card,3.3,Entrepreneur,8,Evening,Delivery,y,False
+Customer828,Female,18.0,47.0,60337.0,Western Food,Manual Brew,4.0,30,E-Wallet,4.8,Student,18,Afternoon,Takeaway,y,True
+Customer829,Female,26.0,11.0,77903.0,Western Food,Manual Brew,19.0,29,Debit Card,3.2,Retired,9,Morning,Delivery,y,True
+Customer830,Female,34.0,17.0,27257.0,Asian Delight,Others,3.0,118,E-Wallet,4.2,Employee,17,Night,Dine-in,y,True
+Customer831,Male,57.0,45.0,21868.0,Burgers & Sandwiches,Smoothies,29.0,113,Credit Card,2.8,Student,2,Morning,Takeaway,y,False
+Customer832,Male,38.0,28.0,49573.0,Burgers & Sandwiches,Kopi Susu Lokal,21.0,61,Cash,4.1,Retired,4,Evening,Delivery,y,True
+Customer833,Male,36.0,16.0,52282.0,Western Food,Smoothies,12.0,32,Debit Card,2.4,Retired,20,Night,Delivery,y,False
+Customer834,Female,27.0,10.0,48744.0,Western Food,Manual Brew,25.0,93,E-Wallet,3.2,Retired,8,Evening,Dine-in,y,True
+Customer835,Male,29.0,42.0,46451.0,Asian Delight,Manual Brew,17.0,96,Cash,2.0,Entrepreneur,0,Night,Delivery,y,True
+Customer836,Male,27.0,11.0,47792.0,Snacks,Frappe,8.0,86,Credit Card,4.2,Employee,2,Night,Dine-in,y,True
+Customer837,Male,41.0,17.0,105219.0,Salad & Soup,Others,26.0,10,Credit Card,2.0,Student,18,Evening,Dine-in,y,False
+Customer838,Male,41.0,9.0,77969.0,Salad & Soup,Juices,3.0,18,Credit Card,2.7,Student,0,Evening,Delivery,y,True
+Customer839,Female,46.0,22.0,122414.0,Spaghetti,Smoothies,2.0,57,Cash,2.0,Freelancer,19,Morning,Delivery,y,True
+Customer840,Female,59.0,38.0,137290.0,Asian Delight,Frappe,5.0,72,E-Wallet,3.7,Retired,16,Evening,Delivery,y,False
+Customer841,Male,28.0,48.0,29588.0,Burgers & Sandwiches,Yakult,28.0,25,Credit Card,4.8,Retired,5,Afternoon,Delivery,y,True
+Customer842,Female,47.0,16.0,78151.0,Burgers & Sandwiches,Others,16.0,100,Cash,2.6,Freelancer,8,Afternoon,Takeaway,y,False
+Customer843,Female,59.0,40.0,116507.0,Western Food,Juices,21.0,44,Debit Card,1.7,Freelancer,17,Morning,Dine-in,y,True
+Customer844,Female,27.0,36.0,137114.0,Burgers & Sandwiches,Kopi Susu Lokal,14.0,88,Cash,4.0,Entrepreneur,20,Evening,Delivery,y,False
+Customer845,Female,20.0,13.0,51880.0,Burgers & Sandwiches,Barista Drinks,24.0,19,E-Wallet,3.3,Freelancer,18,Night,Dine-in,y,False
+Customer846,Male,42.0,4.0,66073.0,Burgers & Sandwiches,Classic Coffee,30.0,81,Credit Card,1.4,Employee,6,Night,Delivery,y,True
+Customer847,Male,43.0,26.0,140004.0,Rice Bowl,Manual Brew,15.0,75,Credit Card,1.1,Freelancer,14,Afternoon,Dine-in,y,False
+Customer848,Female,38.0,8.0,84469.0,Asian Delight,Yakult,3.0,61,E-Wallet,3.9,Student,9,Afternoon,Takeaway,y,False
+Customer849,Male,23.0,8.0,58289.0,Rice Bowl,Barista Drinks,17.0,46,Cash,1.2,Freelancer,5,Evening,Dine-in,y,True
+Customer850,Male,48.0,39.0,114829.0,Salad & Soup,Mocktail,24.0,69,Cash,4.7,Retired,5,Morning,Takeaway,y,True
+Customer851,Female,47.0,19.0,91689.0,Pizza,Mocktail,8.0,21,Debit Card,4.8,Employee,20,Morning,Takeaway,y,False
+Customer852,Female,40.0,31.0,135483.0,Salad & Soup,Yakult,13.0,45,Cash,4.3,Employee,6,Night,Dine-in,y,True
+Customer853,Male,43.0,45.0,85911.0,Spaghetti,Mocktail,10.0,75,E-Wallet,2.2,Student,7,Morning,Takeaway,y,False
+Customer854,Male,44.0,42.0,147077.0,Snacks,Kopi Susu Lokal,12.0,91,E-Wallet,2.2,Retired,16,Afternoon,Delivery,y,False
+Customer855,Female,43.0,21.0,68014.0,Spaghetti,Kopi Susu Lokal,14.0,116,E-Wallet,1.5,Employee,4,Morning,Delivery,y,True
+Customer856,Female,24.0,30.0,33290.0,Salad & Soup,Manual Brew,24.0,51,Credit Card,3.8,Student,20,Morning,Delivery,y,False
+Customer857,Female,22.0,50.0,94674.0,Western Food,Smoothies,26.0,34,Credit Card,4.1,Freelancer,13,Night,Dine-in,y,True
+Customer858,Male,48.0,24.0,46196.0,Pizza,Smoothies,15.0,55,Credit Card,4.9,Retired,2,Afternoon,Delivery,y,False
+Customer859,Female,41.0,4.0,57742.0,Spaghetti,Manual Brew,8.0,30,Debit Card,3.3,Freelancer,20,Morning,Takeaway,y,False
+Customer860,Female,54.0,10.0,95497.0,Burgers & Sandwiches,Smoothies,21.0,18,Cash,1.9,Retired,11,Afternoon,Takeaway,y,False
+Customer861,Male,33.0,7.0,54567.0,Asian Delight,Smoothies,20.0,92,Cash,4.1,Student,1,Afternoon,Takeaway,y,False
+Customer862,Male,43.0,39.0,54179.0,Salad & Soup,Yakult,2.0,25,Cash,2.5,Entrepreneur,7,Afternoon,Dine-in,y,False
+Customer863,Male,53.0,18.0,22698.0,Spaghetti,Manual Brew,17.0,25,E-Wallet,1.8,Employee,9,Afternoon,Delivery,y,True
+Customer864,Female,43.0,49.0,149098.0,Western Food,Yakult,20.0,114,Cash,1.5,Employee,4,Evening,Dine-in,y,False
+Customer865,Female,58.0,19.0,85175.0,Burgers & Sandwiches,Frappe,26.0,12,Credit Card,1.9,Freelancer,2,Morning,Dine-in,y,True
+Customer866,Male,32.0,5.0,47103.0,Asian Delight,Manual Brew,4.0,53,E-Wallet,4.4,Employee,0,Afternoon,Delivery,y,True
+Customer867,Female,47.0,7.0,85519.0,Snacks,Classic Coffee,16.0,114,E-Wallet,3.0,Retired,4,Afternoon,Dine-in,y,True
+Customer868,Male,54.0,24.0,84095.0,Asian Delight,Frappe,1.0,67,Debit Card,1.0,Entrepreneur,18,Afternoon,Takeaway,y,False
+Customer869,Male,25.0,8.0,132125.0,Rice Bowl,Classic Coffee,14.0,45,E-Wallet,2.5,Employee,11,Night,Takeaway,y,True
+Customer870,Male,21.0,16.0,82888.0,Rice Bowl,Manual Brew,14.0,38,Debit Card,2.2,Student,9,Morning,Delivery,y,False
+Customer871,Female,44.0,32.0,82806.0,Salad & Soup,Frappe,27.0,67,Credit Card,2.2,Student,11,Evening,Takeaway,y,False
+Customer872,Male,30.0,47.0,55276.0,Spaghetti,Classic Coffee,23.0,76,Cash,4.8,Retired,11,Night,Delivery,y,True
+Customer873,Male,33.0,43.0,104509.0,Burgers & Sandwiches,Frappe,3.0,39,Debit Card,2.0,Student,13,Morning,Delivery,y,False
+Customer874,Male,33.0,9.0,97103.0,Snacks,Smoothies,27.0,63,Cash,1.3,Retired,9,Evening,Delivery,y,False
+Customer875,Female,39.0,40.0,106322.0,Snacks,Mocktail,19.0,58,Cash,2.3,Retired,8,Evening,Delivery,y,True
+Customer876,Female,31.0,36.0,22022.0,Western Food,Yakult,10.0,37,Credit Card,5.0,Employee,9,Evening,Dine-in,y,True
+Customer877,Male,36.0,35.0,127078.0,Rice Bowl,Classic Coffee,29.0,55,Credit Card,1.8,Student,0,Afternoon,Takeaway,y,False
+Customer878,Female,57.0,35.0,74807.0,Spaghetti,Mocktail,27.0,106,E-Wallet,1.6,Retired,0,Night,Takeaway,y,True
+Customer879,Female,34.0,12.0,62585.0,Burgers & Sandwiches,Mocktail,25.0,33,Debit Card,2.8,Freelancer,18,Afternoon,Dine-in,y,False
+Customer880,Male,52.0,9.0,106731.0,Pizza,Frappe,13.0,11,E-Wallet,2.6,Student,16,Afternoon,Delivery,y,False
+Customer881,Male,44.0,14.0,109367.0,Rice Bowl,Kopi Susu Lokal,18.0,13,Credit Card,3.9,Freelancer,17,Morning,Dine-in,y,False
+Customer882,Male,29.0,37.0,122334.0,Salad & Soup,Juices,1.0,69,E-Wallet,4.1,Employee,12,Evening,Delivery,y,True
+Customer883,Male,24.0,47.0,101267.0,Asian Delight,Manual Brew,18.0,48,Debit Card,2.1,Freelancer,18,Night,Takeaway,y,False
+Customer884,Female,55.0,43.0,115560.0,Asian Delight,Manual Brew,29.0,95,Cash,4.3,Freelancer,14,Afternoon,Delivery,y,False
+Customer885,Male,32.0,17.0,85815.0,Asian Delight,Classic Coffee,25.0,17,Credit Card,1.3,Freelancer,2,Afternoon,Delivery,y,False
+Customer886,Female,29.0,21.0,95116.0,Salad & Soup,Others,19.0,63,Credit Card,4.4,Freelancer,17,Morning,Dine-in,y,False
+Customer887,Male,60.0,18.0,49537.0,Snacks,Others,7.0,85,Cash,4.9,Retired,14,Night,Takeaway,y,False
+Customer888,Male,27.0,19.0,94000.0,Asian Delight,Yakult,13.0,105,E-Wallet,3.2,Student,18,Afternoon,Dine-in,y,True
+Customer889,Male,55.0,21.0,36328.0,Burgers & Sandwiches,Mocktail,29.0,11,Credit Card,4.6,Retired,18,Morning,Takeaway,y,True
+Customer890,Female,32.0,32.0,35516.0,Burgers & Sandwiches,Smoothies,14.0,75,Debit Card,4.8,Employee,9,Afternoon,Takeaway,y,False
+Customer891,Female,59.0,28.0,91622.0,Snacks,Frappe,19.0,56,Debit Card,1.5,Student,13,Afternoon,Dine-in,y,True
+Customer892,Female,49.0,20.0,99807.0,Salad & Soup,Juices,10.0,99,Cash,1.3,Employee,19,Evening,Delivery,y,True
+Customer893,Female,53.0,29.0,48598.0,Rice Bowl,Kopi Susu Lokal,19.0,77,Credit Card,1.5,Employee,13,Night,Takeaway,y,True
+Customer894,Female,23.0,5.0,40716.0,Burgers & Sandwiches,Classic Coffee,17.0,66,Cash,2.4,Entrepreneur,3,Night,Delivery,y,False
+Customer895,Female,50.0,48.0,112827.0,Pizza,Yakult,18.0,91,E-Wallet,3.2,Entrepreneur,1,Night,Takeaway,y,False
+Customer896,Male,33.0,10.0,108390.0,Pizza,Smoothies,21.0,79,E-Wallet,2.7,Retired,7,Evening,Takeaway,y,False
+Customer897,Female,57.0,44.0,133688.0,Snacks,Classic Coffee,1.0,55,E-Wallet,2.8,Entrepreneur,20,Afternoon,Takeaway,y,True
+Customer898,Female,25.0,3.0,91890.0,Asian Delight,Others,21.0,15,Cash,1.2,Entrepreneur,10,Evening,Dine-in,y,False
+Customer899,Female,52.0,31.0,37088.0,Western Food,Classic Coffee,16.0,66,Credit Card,2.0,Student,16,Morning,Takeaway,y,False
+Customer900,Female,40.0,19.0,37388.0,Asian Delight,Kopi Susu Lokal,24.0,16,Debit Card,1.4,Freelancer,20,Night,Dine-in,y,False
+Customer901,Female,,,99999.0,,,,-30,Cash,5.0,Employee,10,Morning,Takeaway,No,True
+Customer902,Female,,10.0,,Pizza,Barista Drinks,4.0,20,Cash,4.0,Freelancer,8,Evening,Takeaway,Weekday,False
+Customer903,Male,150.0,,99999.0,Asian Delight,Manual Brew,1000.0,10,INVALID,2.0,Doctor,-1,Evening,Walk-in,Weekend,True
+Customer904,Male,45.0,20.0,,Snacks,Frappe,30.0,40,Credit Card,4.0,Teacher,5,Evening,Website,,True
+Customer905,Female,23.0,30.0,50000.0,Western Food,Juices,-5.0,120,INVALID,4.0,Doctor,6,Night,Takeaway,No,True
+Customer906,Female,19.0,15.0,99999.0,Barista Drinks,Juices,20.0,25,Cash,6.0,Unemployed,2,Night,Takeaway,Yes,True
+Customer907,Female,60.0,40.0,99999999.0,Pizza,Yakult,15.0,45,Credit Card,5.0,Teacher,9,Night,Walk-in,Weekend,True
+Customer908,Other,-10.0,25.0,30000.0,Mocktail,,18.0,40,Cash,2.0,Freelancer,3,Evening,App,Yes,False
+Customer909,Male,99.0,12.0,60000.0,Rice Bowl,Juices,10.0,20,INVALID,4.0,Engineer,11,Morning,Takeaway,No,True
+Customer910,Female,21.0,-20.0,45000.0,Snacks,Frappe,6.0,33,Cash,-1.0,Unemployed,12,Night,App,Yes,False
+Customer911,Other,,45.0,55000.0,Western Food,Yakult,22.0,27,INVALID,3.0,Alien,7,Evening,Takeaway,No,True
+Customer912,Male,200.0,18.0,99999.0,Rice Bowl,Juices,5.0,29,Crypto,4.0,Freelancer,2,Morning,Delivery,Yes,False
+Customer913,Other,45.0,19.0,99999999.0,Asian Delight,Manual Brew,30.0,-10,Cash,2.0,Engineer,10,Evening,Walk-in,Weekend,True
+Customer914,Male,70.0,11.0,50000.0,Mocktail,Juices,17.0,31,INVALID,3.0,Doctor,1,Morning,App,Yes,False
+Customer915,Female,27.0,16.0,99999999.0,Western Food,Mocktail,24.0,39,Cash,4.0,Freelancer,15,Night,Walk-in,Weekend,True

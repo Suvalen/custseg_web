@@ -1,0 +1,56 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<h2 class="text-center mb-4">📊 Cluster Profiles with Tags</h2>
+<div class="row justify-content-center">
+  {% for cluster in profile_cards %}
+  <div class="col-md-4 mb-4">
+    <div class="card border-info shadow-sm">
+      <div class="card-header bg-info text-white fw-bold">Cluster {{ cluster.Cluster }}</div>
+      <div class="card-body">
+        <p>💰 <strong>Avg Spend:</strong> Rp {{ cluster.avg_spend|floatformat:0 }}</p>
+        <p>📅 <strong>Visits/Month:</strong> {{ cluster.visit_freq }}</p>
+        <p>⭐ <strong>Avg Rating:</strong> {{ cluster.rating }}</p>
+        <p>⏱️ <strong>Avg Stay:</strong> {{ cluster.stay }} min</p>
+        <p>🍀 <strong>Tags:</strong></p>
+        {% for tag in cluster.tags %}
+          <span class="badge bg-secondary me-1">{{ tag }}</span>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+
+<h3 class="mb-4">📊 Cluster Summary Visuals</h3>
+<div class="row">
+
+  {% for name, chart in charts.items %}
+  <div class="col-12 col-md-6 col-lg-4 mb-4">
+    <div class="info-box bg-light shadow-sm p-3">
+      <div class="info-box-content">
+        <span class="info-box-text fw-bold mb-2">{{ name|title }}</span>
+        <div class="chart-container">
+          {{ chart|safe }}
+        </div>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+
+</div>
+
+
+
+ <!-- Cluster Plot -->
+ <a href="{% url 'plot' %}" class="btn btn-outline-info mb-4">
+    🔍 View Interactive Cluster Plot
+  </a>
+
+<!-- Full Table -->
+<h3 class="mt-4">First Few Clustered Data Table Results</h3>
+<div class="table-responsive">
+  {{ clustered_data|safe }}
+</div>
+
+{% endblock %}

@@ -1,0 +1,177 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="container mt-4">
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/dataTables.bootstrap5.min.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
+  <script src="https://cdn.datatables.net/1.13.4/js/dataTables.bootstrap5.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('#clusteredTable').DataTable({
+        pageLength: 10
+      });
+    });
+  </script>
+  
+  <h3 class="mt-5">🔍 Cluster Profiles with Tags</h3>
+  <div class="row">
+    {% for profile in profile_cards %}
+    <div class="col-md-4">
+      <div class="card border-info mb-4">
+        <div class="card-header bg-info text-white">
+          Cluster {{ profile.Cluster }}
+        </div>
+        <div class="card-body">
+          <p><strong>💰 Avg Spend:</strong> Rp {{ profile.avg_spend|floatformat:0 }}</p>
+          <p><strong>📅 Visits/Month:</strong> {{ profile.visit_freq|floatformat:1 }}</p>
+          <p><strong>⭐ Avg Rating:</strong> {{ profile.rating|floatformat:1 }}</p>
+          <p><strong>⏱️ Avg Stay:</strong> {{ profile.stay|floatformat:0 }} min</p>
+          <p><strong>🧩 Tags:</strong></p>
+          {% for tag in profile.tags %}
+            <span class="badge bg-secondary me-1">{{ tag }}</span>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+  
+  <h3 class="mb-4">📊 Cluster Summary Visuals</h3>
+<div class="row">
+
+  <!-- Customer Count -->
+  <div class="col-12 col-md-6 col-lg-4 mb-4">
+    <div class="info-box bg-light shadow-sm p-3">
+      <div class="info-box-content">
+        <span class="info-box-text fw-bold mb-2">Customers per Cluster</span>
+        <div class="chart-container">
+          {{ charts.count|safe }}
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Average Spend -->
+  <div class="col-12 col-md-6 col-lg-4 mb-4">
+    <div class="info-box bg-light shadow-sm p-3">
+      <div class="info-box-content">
+        <span class="info-box-text fw-bold mb-2">Avg Order Value (Rp)</span>
+        <div class="chart-container">
+          {{ charts.spend|safe }}
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Visit Frequency -->
+  <div class="col-12 col-md-6 col-lg-4 mb-4">
+    <div class="info-box bg-light shadow-sm p-3">
+      <div class="info-box-content">
+        <span class="info-box-text fw-bold mb-2">Visit Frequency / Month</span>
+        <div class="chart-container">
+          {{ charts.frequency|safe }}
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Customer Rating -->
+  <div class="col-12 col-md-6 col-lg-4 mb-4">
+    <div class="info-box bg-light shadow-sm p-3">
+      <div class="info-box-content">
+        <span class="info-box-text fw-bold mb-2">Avg Rating</span>
+        <div class="chart-container">
+          {{ charts.rating|safe }}
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Stay Duration -->
+  <div class="col-12 col-md-6 col-lg-4 mb-4">
+    <div class="info-box bg-light shadow-sm p-3">
+      <div class="info-box-content">
+        <span class="info-box-text fw-bold mb-2">Stay Duration (Min)</span>
+        <div class="chart-container">
+          {{ charts.stay|safe }}
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
+  <!-- Cluster Plot -->
+  <a href="{% url 'plot' %}" class="btn btn-outline-info mb-4">
+    🔍 View Interactive Cluster Plot
+  </a>
+  
+  <h3 class="mt-5">🧩 What Do the Tags Mean?</h3>
+  <div class="accordion" id="tagExplanationsAccordion">
+    {% for tag, explanation in tag_explanations.items %}
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="heading{{ forloop.counter }}">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse{{ forloop.counter }}">
+            {{ tag }}
+          </button>
+        </h2>
+        <div id="collapse{{ forloop.counter }}" class="accordion-collapse collapse" data-bs-parent="#tagExplanationsAccordion">
+          <div class="accordion-body">
+            {{ explanation }}
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+
+  .
+  <!-- Table -->
+  <table class="table table-striped table-bordered table-sm text-center">
+    <thead>
+      <tr>
+        {% for col in page_obj.object_list.columns %}
+          <th>{{ col }}</th>
+        {% endfor %}
+      </tr>
+    </thead>
+    <tbody>
+      {% for _, row in page_obj.object_list.iterrows %}
+        <tr>
+          {% for col, item in row.items %}
+  {% if col == "tags" %}
+    <td>{{ item|safe }}</td>
+  {% else %}
+    <td>{{ item }}</td>
+  {% endif %}
+{% endfor %}
+
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+  <nav>
+    <ul class="pagination justify-content-center">
+      {% if page_obj.has_previous %}
+        <li class="page-item"><a class="page-link" href="?page=1">&laquo; First</a></li>
+        <li class="page-item"><a class="page-link" href="?page={{ page_obj.previous_page_number }}">Previous</a></li>
+      {% endif %}
+  
+      <li class="page-item active">
+        <span class="page-link">{{ page_obj.number }}</span>
+      </li>
+  
+      {% if page_obj.has_next %}
+        <li class="page-item"><a class="page-link" href="?page={{ page_obj.next_page_number }}">Next</a></li>
+        <li class="page-item"><a class="page-link" href="?page={{ page_obj.paginator.num_pages }}">Last &raquo;</a></li>
+      {% endif %}
+    </ul>
+  </nav>
+    
+  <a href="{% url 'export_clustered' %}" class="btn btn-outline-success mb-3">
+    📥 Download Clustered CSV
+  </a>
+  
+
+</div>
+{% endblock %}

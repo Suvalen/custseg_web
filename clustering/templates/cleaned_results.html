@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="container mt-4">
+  <h2>Cleaned Data Overview</h2>
+
+  <div class="row">
+    <div class="col-md-6">
+      <ul class="list-group mb-4">
+        <li class="list-group-item d-flex justify-content-between">
+          <strong>Total Rows:</strong> <span>{{ total_rows }}</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between">
+          <strong>Total Columns:</strong> <span>{{ total_cols }}</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between">
+          <strong>Encoded Columns:</strong> <span>{{ encoded_count }}</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between">
+          <strong>Rows Removed:</strong> <span>{{ rows_removed }}</span>
+        </li>
+      </ul>
+
+      <a href="{% url 'upload' %}" class="btn btn-primary">
+        Proceed to Clustering
+      </a>
+      
+    </div>
+  </div>
+
+  <h4 class="mt-5">Preview of Cleaned Data</h4>
+  <div class="table-responsive">
+    {{ preview|safe }}
+  </div>
+  <a href="{% url 'export_cleaned' %}" class="btn btn-outline-secondary mt-3">
+    📥 Download Cleaned Data
+  </a>
+
+</a>
+  
+</div>
+{% endblock %}
