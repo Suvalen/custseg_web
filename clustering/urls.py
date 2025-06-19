@@ -1,6 +1,7 @@
 from django.urls import path
 from . import views
 from .views import snapshot_list, snapshot_detail, export_snapshot_csv
+from urls import trigger_collectstatic
 
 urlpatterns = [
     path('', views.about, name='about'),
@@ -22,7 +23,15 @@ urlpatterns = [
     path('snapshots/<int:snapshot_id>/', snapshot_detail, name='snapshot_detail'),
     path('snapshots/delete/<int:pk>/', views.delete_snapshot, name='delete_snapshot'),
     path('snapshots/export/<int:snapshot_id>/', export_snapshot_csv, name='export_snapshot_csv'),
+    path('collectstatic/', trigger_collectstatic),
 
 
 
 ]
+
+from django.http import HttpResponse
+from django.core import management
+
+def trigger_collectstatic(request):
+    management.call_command('collectstatic', '--noinput')
+    return HttpResponse("collectstatic complete")
