@@ -1,27 +1,19 @@
-# Byte-compiled / cache files
+# Ignore virtual environments
+venv/
+segmenv/
+ENV/
+env/
+*.env
+
+# Byte-compiled / cache
 __pycache__/
 *.py[cod]
-*.sqlite3
 
-# Django stuff:
-*.log
-*.pot
-*.pyc
-*.db
+# Ignore database and static files
 *.sqlite3
 /staticfiles/
 /media/
 
-# Environments
-.env
-venv/
-ENV/
-.env.*
-*.env
-
-# OS files
-.DS_Store
-
-# IDE
+# VS Code settings
 .vscode/
-.idea/
+.DS_Store
