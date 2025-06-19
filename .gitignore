@@ -4,7 +4,7 @@ segmenv/
 ENV/
 env/
 *.env
-segmenv
+segmenvenv
 
 # Byte-compiled / cache
 __pycache__/
