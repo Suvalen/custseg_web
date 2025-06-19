@@ -1107,3 +1107,10 @@ def export_snapshot_csv(request, snapshot_id):
     export_df.to_csv(response, index=False)
 
     return response
+
+from django.http import HttpResponse
+from django.core import management
+
+def trigger_collectstatic(request):
+    management.call_command('collectstatic', '--noinput')
+    return HttpResponse("collectstatic complete")
