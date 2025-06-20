@@ -2,6 +2,8 @@ from django.urls import path
 from . import views
 from .views import snapshot_list, snapshot_detail, export_snapshot_csv
 from .views import trigger_collectstatic
+from django.conf import settings
+from django.conf.urls.static import static
 
 urlpatterns = [
     path('', views.about, name='about'),
@@ -25,3 +27,6 @@ urlpatterns = [
     path('snapshots/export/<int:snapshot_id>/', export_snapshot_csv, name='export_snapshot_csv'),
     path('collectstatic/', trigger_collectstatic),
 ]
+
+if settings.DEBUG:
+    urlpatterns = static(settings.STATIC_URL, document_root=settings.STATICFILES_DIRS[0])
