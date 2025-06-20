@@ -130,3 +130,6 @@ STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 SESSION_ENGINE = 'django.contrib.sessions.backends.cache'
+CSRF_TRUSTED_ORIGINS = [
+    "https://web-production-8086.up.railway.app"
+]
